@@ -1,4 +1,4 @@
-# 🛡 Policy Enforcement Auditor
+# YouTube Policy Enforcement Auditor
 
 **An Independent Evaluation Framework for Content Policy Classification**
 
