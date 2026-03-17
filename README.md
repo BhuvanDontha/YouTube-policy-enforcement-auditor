@@ -161,19 +161,6 @@ PRODUCTION (any platform):
 
 ---
 
-## Skills Demonstrated
-
-| Skill | How |
-|---|---|
-| LLM-based classification | Structured prompting, few-shot learning, JSON output parsing |
-| Classification system design | Multi-label classification with severity ranking across 14 categories |
-| Evaluation methodology | Precision/recall/F1 per category, confusion matrices, cross-classifier analysis |
-| Consistency analysis | Reproducibility testing across semantically similar inputs |
-| Systems thinking | Dual-classifier architecture, modular evaluation pipeline |
-| T&S domain knowledge | Built on YouTube's real policy taxonomy (public source) |
-
----
-
 ## Author
 
 **Bhuvan Dontha**
