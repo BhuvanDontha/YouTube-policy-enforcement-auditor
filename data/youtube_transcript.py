@@ -47,7 +47,7 @@ def extract_video_id(url: str) -> Optional[str]:
     return None
 
 
-def get_transcript(url_or_id: str, max_chars: int = 5000) -> Dict:
+def get_transcript(url_or_id: str, max_chars: int = 100000) -> Dict:
     """Fetch transcript from a YouTube video.
 
     Args:
@@ -114,7 +114,7 @@ def summarize_for_classification(
 
     client = genai.Client(api_key=key)
 
-    truncated = transcript_text[:5000]
+    truncated = transcript_text[:100000]
 
     prompt = f"""You are a content analyst. Given the following video transcript, write a 2-3 sentence summary describing what the video contains. Focus on elements relevant to advertiser-friendly content policy: violence, language, drug references, sensitive topics, adult content, controversial issues, harmful acts, etc.
 
@@ -126,7 +126,7 @@ TRANSCRIPT:
 SUMMARY (2-3 sentences):"""
 
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         contents=prompt,
         config=types.GenerateContentConfig(temperature=0.2),
     )
