@@ -75,7 +75,7 @@ policy-enforcement-auditor/
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/YOUR_USERNAME/policy-enforcement-auditor.git
+git clone https://github.com/BhuvanDontha/policy-enforcement-auditor.git
 cd policy-enforcement-auditor
 pip install -r requirements.txt
 ```
