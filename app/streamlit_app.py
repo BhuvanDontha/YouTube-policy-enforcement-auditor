@@ -41,6 +41,20 @@ st.set_page_config(
 st.title("\U0001F6E1 Policy Enforcement Auditor")
 st.caption("AI-Powered Content Policy Classification & Enforcement Consistency Analysis")
 
+# ================= Password Gate =====================
+if "authenticated" not in st.session_state:
+    st.session_state.authenticated = False
+
+if not st.session_state.authenticated:
+    st.title("🛡 Policy Enforcement Auditor")
+    password = st.text_input("Enter access code to continue", type="password")
+    if password == st.secrets.get("APP_PASSWORD", ""):
+        st.session_state.authenticated = True
+        st.rerun()
+    elif password:
+        st.error("Incorrect access code.")
+    st.stop()
+
 # ==================== SIDEBAR ====================
 view = st.sidebar.radio(
     "Select View",
