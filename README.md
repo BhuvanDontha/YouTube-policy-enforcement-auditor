@@ -34,7 +34,7 @@ policy-enforcement-auditor/
 │   └── ground_truth.csv              # Ground truth labels for evaluation
 │
 ├── classifiers/
-│   ├── llm_classifier.py             # Gemini 2.0 Flash structured prompting
+│   ├── llm_classifier.py             # Gemini 2.5 Flash structured prompting
 │   ├── rules_classifier.py           # Keyword + regex deterministic baseline
 │   └── ensemble.py                   # Cross-classifier analysis engine
 │
