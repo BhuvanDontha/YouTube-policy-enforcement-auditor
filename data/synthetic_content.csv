@@ -1,0 +1,501 @@
+content_id,description,true_policy_id,true_policy_name,true_severity,source_note
+CNT-0441,Reupload of Video sharing links to websites where drugs can be purchased online #trending,POL-DRUG,Recreational Drugs,RED,Selling drugs online
+CNT-0104,Extended cut: News segment covering abortion legislation changes factually (2024),POL-CONTROV,Controversial Issues,GREEN,Non-graphic abortion coverage
+CNT-0084,New upload: Personal story about recovering from opioid addiction,POL-DRUG,Recreational Drugs,GREEN,Addiction recovery
+CNT-0032,New upload: Content depicting graphic torture of a restrained person,POL-VIOL,Violence,RED,Graphic torture
+CNT-0487,Trending: Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0009,Commentary video where profanity is used in most sentences throughout - viewer discretion advised,POL-LANG,Inappropriate Language,YELLOW,Focal profanity usage
+CNT-0082,Part 2: Video inciting viewers to commit violence against disabled people - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,RED,Inciting violence protected group
+CNT-0264,Compilation video dedicated to insulting and mocking a public figure | unedited,POL-INCEND,Incendiary & Demeaning,YELLOW,Malicious personal attacks
+CNT-0003,Reupload of Stand-up comedy set with frequent use of 'bitch' and 'asshole' (2024),POL-LANG,Inappropriate Language,GREEN,Moderate profanity in comedy
+CNT-0480,Close-up video of extreme surgical procedure with exposed organs no context,POL-SHOCK,Shocking Content,RED,Gruesome gory no context
+CNT-0254,Reupload of Action movie clip showing character getting punched with minimal blood,POL-VIOL,Violence,GREEN,Dramatized non-graphic violence
+CNT-0230,Reupload of Video containing racial slurs used casually in conversation | unedited,POL-LANG,Inappropriate Language,RED,Hateful language/slurs
+CNT-0490,Documentary about the history of the war on drugs in America (2024),POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0345,Reupload of Commentary video where profanity is used in most sentences throughout - full version,POL-LANG,Inappropriate Language,YELLOW,Focal profanity usage
+CNT-0459,Part 2: Discussion video about proposed gun control legislation - viewer discretion advised,POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0043,Trending: Video showing exposed nudity with clearly visible sexual body parts - viewer discretion advised,POL-ADULT,Adult Content,RED,Full nudity
+CNT-0092,Content glorifying a drug cartel leader and their lifestyle,POL-DRUG,Recreational Drugs,RED,Drug trafficking glorification
+CNT-0332,Self-defense tutorial demonstrating basic blocking techniques (2024),POL-VIOL,Violence,GREEN,Fights educational context
+CNT-0277,Reupload of Educational video about STDs using animated depictions of sex (2024),POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0108,Full video: Personal recovery story from someone who overcame bulimia | unedited,POL-CONTROV,Controversial Issues,YELLOW,Eating disorder recovery
+CNT-0234,New upload: Music video with backing track containing bleeped profanity,POL-LANG,Inappropriate Language,GREEN,Obscured profanity in music
+CNT-0103,PSA video about suicide prevention hotline and mental health resources,POL-CONTROV,Controversial Issues,GREEN,Preventing controversial issues
+CNT-0303,Full video: Content promoting anti-vaccination conspiracy theories as facts - full version,POL-HARM,Harmful Acts & Unreliable Content,RED,Anti-vaccination misinformation
+CNT-0176,Full video: Mukbang video eating live octopus tentacles in theatrical manner (2024),POL-SHOCK,Shocking Content,YELLOW,Sensational mukbang
+CNT-0188,Full video: Content promoting white supremacist ideology and symbols,POL-HATE,Hateful & Derogatory Content,RED,Promoting hate groups
+CNT-0248,Full video: Content claiming that cancer can be cured through diet alone - full version,POL-HARM,Harmful Acts & Unreliable Content,RED,Medical misinformation
+CNT-0197,Viewer requested: Video titled 'F*ck This Product' with uncensored profanity (2024),POL-LANG,Inappropriate Language,RED,Strong profanity in title
+CNT-0435,New upload: Video promoting essay writing services for university assignments (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0001,New upload: Comedy sketch where host says 'what the hell' and 'damn' throughout,POL-LANG,Inappropriate Language,GREEN,Abbreviated/obscured profanity
+CNT-0172,Content claiming a school shooting was staged with crisis actors #trending,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0012,Video containing racial slurs used casually in conversation | unedited,POL-LANG,Inappropriate Language,RED,Hateful language/slurs
+CNT-0112,Full video: First person account describing child abuse in graphic sexual detail,POL-CONTROV,Controversial Issues,RED,Graphic child abuse descriptive
+CNT-0432,Extended cut: Political debate using offensive language about ethnic minorities #trending,POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0183,Video titled 'how to end your life with dignity' with instructions,POL-CONTROV,Controversial Issues,RED,Promote suicide
+CNT-0326,New upload: Video showing how to break into houses using lockpicking tools,POL-DISHON,Enabling Dishonest Behavior,RED,Trespassing promotion
+CNT-0289,Full video: Kids channel video showing realistic toy guns being fired,POL-KIDS,Inappropriate Content for Kids,RED,Guns kids content
+CNT-0417,Reupload of Educational video about the history of the civil rights movement #trending,POL-HATE,Hateful & Derogatory Content,GREEN,Educational with obscured slurs
+CNT-0477,Content glorifying a drug cartel leader and their lifestyle | unedited,POL-DRUG,Recreational Drugs,RED,Drug trafficking glorification
+CNT-0411,Full video: Video claiming COVID-19 vaccines contain microchips - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0002,Part 2: Music video with backing track containing bleeped profanity (2024),POL-LANG,Inappropriate Language,GREEN,Obscured profanity in music
+CNT-0023,Full video: Gaming video with graphic beheading scene in the thumbnail - viewer discretion advised,POL-VIOL,Violence,YELLOW,Graphic game violence thumbnail
+CNT-0449,Romantic comedy scene with characters kissing passionately - full version,POL-ADULT,Adult Content,GREEN,Romance or kissing
+CNT-0207,Full video: First person account describing child abuse in graphic sexual detail #trending,POL-CONTROV,Controversial Issues,RED,Graphic child abuse descriptive
+CNT-0052,Part 2: Pimple popping compilation by a medical professional with explanations,POL-SHOCK,Shocking Content,YELLOW,Medical procedure focal bodily
+CNT-0028,New upload: Video showing graphic dead bodies with exposed wounds no context - viewer discretion advised,POL-VIOL,Violence,RED,Graphic dead bodies non-educational
+CNT-0120,Part 2: Ethical hacking tutorial explaining penetration testing methodology #trending,POL-DISHON,Enabling Dishonest Behavior,GREEN,Ethical hacking
+CNT-0309,New upload: Vlog intro music containing the word 'damn' in lyrics - full version,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in music
+CNT-0123,Viewer requested: Tutorial on how to install spyware on someone's phone secretly (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Tracking without consent
+CNT-0443,New upload: Music video featuring choreographed hip-hop dancing in a studio #trending,POL-ADULT,Adult Content,GREEN,Sexually graphic dance professional
+CNT-0235,Reupload of Thumbnail showing graphic image of self-harm scars for awareness video (2024),POL-CONTROV,Controversial Issues,YELLOW,Controversial thumbnail graphic
+CNT-0200,Reupload of Thumbnail with text overlay reading 'BULL***T' | unedited,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in thumbnail
+CNT-0335,Reupload of Documentary showing a child being verbally abused by parent,POL-CONTROV,Controversial Issues,YELLOW,Child abuse non-graphic
+CNT-0458,New upload: Video harassing and intimidating a small business owner repeatedly | unedited,POL-INCEND,Incendiary & Demeaning,YELLOW,Harassment intimidation
+CNT-0008,Reupload of Rap music video titled 'That Sh*t Hits Different' (2024),POL-LANG,Inappropriate Language,YELLOW,Profanity in music title
+CNT-0478,Reupload of Video making false claims about election fraud to undermine voting,POL-HARM,Harmful Acts & Unreliable Content,RED,Election misinformation
+CNT-0144,Trending: Video debunking common health misinformation myths | unedited,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Debunking misinformation
+CNT-0185,Classical art painting showing discernible sexual acts in thumbnail,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0246,Part 2: Parkour video on top of skyscrapers without safety equipment | unedited,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,High risk activities
+CNT-0072,Viewer requested: News report covering discrimination against a religious minority - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,GREEN,News discrimination
+CNT-0256,Extended cut: Video titled 'This is absolute shit' reviewing a bad product | unedited,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in title
+CNT-0368,Part 2: Animated educational video teaching kids about stranger danger #trending,POL-KIDS,Inappropriate Content for Kids,GREEN,Kids educational safety
+CNT-0106,Reupload of Brief mention 'next week we discuss declining suicide rates' in outro #trending,POL-CONTROV,Controversial Issues,GREEN,Fleeting reference
+CNT-0402,Brief mention 'next week we discuss declining suicide rates' in outro - full version,POL-CONTROV,Controversial Issues,GREEN,Fleeting reference
+CNT-0342,Video featuring sex toys being demonstrated and reviewed,POL-ADULT,Adult Content,RED,Sex toys or devices
+CNT-0007,Thumbnail with text overlay reading 'BULL***T',POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in thumbnail
+CNT-0139,Viewer requested: Video promoting a new line of flavored vape pens and e-liquids (2024),POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0242,Viewer requested: Influencer promoting herbal cigarettes as a healthy alternative (2024),POL-TOBAC,Tobacco-Related Content,YELLOW,Herbal cigarettes promotion
+CNT-0389,Content selling merchandise themed around a recent terrorist attack (2024),POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0164,Viewer requested: Political debate using offensive language about ethnic minorities - full version,POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0410,New upload: Educational video about STDs using animated depictions of sex | unedited,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0110,New upload: Video titled 'how to end your life with dignity' with instructions (2024),POL-CONTROV,Controversial Issues,RED,Promote suicide
+CNT-0282,Video showing graphic dead bodies with exposed wounds no context - full version,POL-VIOL,Violence,RED,Graphic dead bodies non-educational
+CNT-0102,Trending: Video showing a 12-year-old child firing a rifle without adult present - full version,POL-FIRE,Firearms,RED,Minors guns unsupervised
+CNT-0150,Trending: Guide on creating fake government identification documents (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Fake ID creation
+CNT-0060,Part 2: Ice bucket challenge video with friends laughing #trending,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Pranks no risk
+CNT-0128,Extended cut: Family-friendly cooking tutorial for kids making cupcakes | unedited,POL-KIDS,Inappropriate Content for Kids,GREEN,Safe DIY kids
+CNT-0454,Trending: News report mentioning a local homicide without graphic descriptions,POL-VIOL,Violence,GREEN,Coverage of tragedies limited
+CNT-0471,Viewer requested: Street fight compilation with visible injuries in educational breakdown - viewer discretion advised,POL-VIOL,Violence,YELLOW,Street fights educational
+CNT-0124,Viewer requested: Video promoting essay writing services for university assignments,POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0061,Extended cut: Video debunking common health misinformation myths - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Debunking misinformation
+CNT-0251,Reupload of Educational video about STDs using animated depictions of sex,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0098,New upload: BB gun battle without protective gear in public park,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0069,Extended cut: Prank involving fake bomb scare in a crowded public place - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,RED,Terrorism prank
+CNT-0030,Full video: Gameplay where player aggregates NPCs for mass killing compilation - viewer discretion advised,POL-VIOL,Violence,RED,Manufactured shocking gameplay
+CNT-0058,Reupload of Professional wingsuit flying over mountains filmed with drone #trending,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Professional stunts
+CNT-0414,Viewer requested: Video inciting viewers to commit violence against disabled people,POL-HATE,Hateful & Derogatory Content,RED,Inciting violence protected group
+CNT-0464,Extended cut: Video stating all people of a certain nationality are inferior,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group
+CNT-0240,Viewer requested: Video inciting viewers to commit violence against disabled people - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,RED,Inciting violence protected group
+CNT-0428,Viewer requested: Video challenging viewers to drink bleach for supposed health benefits - full version,POL-HARM,Harmful Acts & Unreliable Content,RED,Dangerous challenge critical harm
+CNT-0353,Viewer requested: Educational video about the history of the civil rights movement,POL-HATE,Hateful & Derogatory Content,GREEN,Educational with obscured slurs
+CNT-0178,Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0302,Full video: Close-up video of extreme surgical procedure with exposed organs no context,POL-SHOCK,Shocking Content,RED,Gruesome gory no context
+CNT-0006,Extended cut: Video titled 'This is absolute shit' reviewing a bad product,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in title
+CNT-0388,Viewer requested: Video promoting essay writing services for university assignments (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0132,Extended cut: Kids challenge video encouraging eating non-edible craft supplies #trending,POL-KIDS,Inappropriate Content for Kids,RED,Eating non-edible kids
+CNT-0187,Trending: Content showing close-up of fresh self-harm cuts with visible blood,POL-CONTROV,Controversial Issues,RED,Graphic self-harm
+CNT-0231,Viewer requested: Self-defense tutorial demonstrating basic blocking techniques | unedited,POL-VIOL,Violence,GREEN,Fights educational context
+CNT-0089,Trending: Video reviewing different strains of cannabis and rating their effects - viewer discretion advised,POL-DRUG,Recreational Drugs,RED,Drug reviews
+CNT-0434,Reupload of Video stating all people of a certain nationality are inferior | unedited,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group
+CNT-0483,Reupload of Mukbang video eating live octopus tentacles in theatrical manner,POL-SHOCK,Shocking Content,YELLOW,Sensational mukbang
+CNT-0499,Extended cut: PSA video about suicide prevention hotline and mental health resources #trending,POL-CONTROV,Controversial Issues,GREEN,Preventing controversial issues
+CNT-0399,Extended cut: Content reviewing and comparing different cigar brands favorably | unedited,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0077,Part 2: Political debate using offensive language about ethnic minorities,POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0201,Part 2: Music video with rapper shown briefly near a bag of white powder,POL-DRUG,Recreational Drugs,GREEN,Music drugs fleeting
+CNT-0138,Trending: Video harassing and intimidating a small business owner repeatedly - full version,POL-INCEND,Incendiary & Demeaning,YELLOW,Harassment intimidation
+CNT-0413,Music video with rapper shown briefly near a bag of white powder | unedited,POL-DRUG,Recreational Drugs,GREEN,Music drugs fleeting
+CNT-0351,New upload: Discussion video about navigating relationships and dating,POL-ADULT,Adult Content,GREEN,Discussions of relationships
+CNT-0470,Extended cut: Educational video about STDs using animated depictions of sex #trending,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0133,Full video: Content disguised as kids cartoon but containing sexual innuendos,POL-KIDS,Inappropriate Content for Kids,RED,Adult themes kids disguised
+CNT-0068,Trending: Video claiming COVID-19 vaccines contain microchips,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0275,Thumbnail displaying the f-word prominently in large text (2024),POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0107,Part 2: Documentary showing a child being verbally abused by parent | unedited,POL-CONTROV,Controversial Issues,YELLOW,Child abuse non-graphic
+CNT-0070,New upload: Content claiming that cancer can be cured through diet alone | unedited,POL-HARM,Harmful Acts & Unreliable Content,RED,Medical misinformation
+CNT-0126,New upload: Video showing how to break into houses using lockpicking tools,POL-DISHON,Enabling Dishonest Behavior,RED,Trespassing promotion
+CNT-0216,Extended cut: Video singling out a specific person for targeted harassment campaign - full version,POL-HATE,Hateful & Derogatory Content,RED,Singling out for harassment
+CNT-0013,Reupload of Content repeatedly using homophobic slurs as insults | unedited,POL-LANG,Inappropriate Language,RED,Extreme profanity/slurs
+CNT-0359,Reupload of Raw footage of soldiers firing weapons in a conflict zone #trending,POL-VIOL,Violence,YELLOW,Armed conflict raw footage
+CNT-0136,Content claiming a school shooting was staged with crisis actors | unedited,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0498,Rap music video titled 'That Sh*t Hits Different' | unedited,POL-LANG,Inappropriate Language,YELLOW,Profanity in music title
+CNT-0387,Extended cut: Content claiming that cancer can be cured through diet alone,POL-HARM,Harmful Acts & Unreliable Content,RED,Medical misinformation
+CNT-0419,Viewer requested: Street fight compilation with visible injuries in educational breakdown (2024),POL-VIOL,Violence,YELLOW,Street fights educational
+CNT-0223,Viewer requested: Documentary about the history of the war on drugs in America | unedited,POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0489,Reupload of Content glorifying a drug cartel leader and their lifestyle - viewer discretion advised,POL-DRUG,Recreational Drugs,RED,Drug trafficking glorification
+CNT-0156,New upload: Animated content for kids featuring adult horror characters like Momo,POL-KIDS,Inappropriate Content for Kids,RED,Horror kids Momo
+CNT-0422,Full video: Content glorifying a drug cartel leader and their lifestyle | unedited,POL-DRUG,Recreational Drugs,RED,Drug trafficking glorification
+CNT-0338,Part 2: Video titled 'how to end your life with dignity' with instructions - viewer discretion advised,POL-CONTROV,Controversial Issues,RED,Promote suicide
+CNT-0486,Trending: Woman breastfeeding her infant in a parenting vlog - viewer discretion advised,POL-ADULT,Adult Content,GREEN,Breastfeeding with child
+CNT-0408,Content selling merchandise themed around a recent terrorist attack #trending,POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0278,New upload: Video about phone jailbreaking and custom ROM installation - viewer discretion advised,POL-DISHON,Enabling Dishonest Behavior,GREEN,Digital lifehacks
+CNT-0364,New upload: Video showing how to break into houses using lockpicking tools | unedited,POL-DISHON,Enabling Dishonest Behavior,RED,Trespassing promotion
+CNT-0238,Viewer requested: Sex education video explaining contraception methods with diagrams #trending,POL-ADULT,Adult Content,GREEN,Non-graphic sex education
+CNT-0170,Viewer requested: Prank video where friends pretend to be caught in sexual situation,POL-ADULT,Adult Content,YELLOW,Sexual theme pranks
+CNT-0005,Vlog intro music containing the word 'damn' in lyrics,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in music
+CNT-0373,Comedy sketch where host says 'what the hell' and 'damn' throughout | unedited,POL-LANG,Inappropriate Language,GREEN,Abbreviated/obscured profanity
+CNT-0314,Full video: Influencer promoting herbal cigarettes as a healthy alternative - full version,POL-TOBAC,Tobacco-Related Content,YELLOW,Herbal cigarettes promotion
+CNT-0316,Reupload of Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0202,Part 2: Boxing match at professional arena with visible face punches - full version,POL-VIOL,Violence,GREEN,Combat sports professional setting
+CNT-0268,Extended cut: Content promoting anti-vaccination conspiracy theories as facts - full version,POL-HARM,Harmful Acts & Unreliable Content,RED,Anti-vaccination misinformation
+CNT-0033,Reupload of Graphic depiction of violence between children in schoolyard,POL-VIOL,Violence,RED,Violence concerning minors
+CNT-0456,New upload: Tutorial on cleaning and maintaining a hunting rifle,POL-FIRE,Firearms,GREEN,Firearm maintenance
+CNT-0097,Viewer requested: Person shooting targets in their backyard near residential area,POL-FIRE,Firearms,YELLOW,Guns uncontrolled environment
+CNT-0329,Dermatologist explaining ear wax removal procedure educationally - full version,POL-SHOCK,Shocking Content,GREEN,Medical procedure educational
+CNT-0261,Guide on creating fake government identification documents | unedited,POL-DISHON,Enabling Dishonest Behavior,RED,Fake ID creation
+CNT-0492,Personal recovery story from someone who overcame bulimia,POL-CONTROV,Controversial Issues,YELLOW,Eating disorder recovery
+CNT-0101,Viewer requested: Tutorial on how to convert semi-automatic rifle to fully automatic - viewer discretion advised,POL-FIRE,Firearms,RED,Gun modification instructions
+CNT-0421,Personal story about recovering from opioid addiction - full version,POL-DRUG,Recreational Drugs,GREEN,Addiction recovery
+CNT-0321,Part 2: Home video of person accidentally walking into glass door (2024),POL-SHOCK,Shocking Content,GREEN,Accident no visible injury
+CNT-0299,Extended cut: Urban exploration of abandoned hospital with documented permission - full version,POL-DISHON,Enabling Dishonest Behavior,GREEN,Urban exploration permitted
+CNT-0021,New upload: Hunting video where the moment of kill is indiscernible in the distance | unedited,POL-VIOL,Violence,GREEN,Hunting non-graphic
+CNT-0271,Part 2: Personal recovery story from someone who overcame bulimia,POL-CONTROV,Controversial Issues,YELLOW,Eating disorder recovery
+CNT-0184,New upload: Content glorifying gang violence and encouraging retaliation #trending,POL-VIOL,Violence,RED,Glorification of violence
+CNT-0491,Video claiming COVID-19 vaccines contain microchips (2024),POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0497,Part 2: Video encouraging kids to bully other students as a prank | unedited,POL-KIDS,Inappropriate Content for Kids,RED,Kids bullying promotion
+CNT-0245,Viewer requested: Video encouraging kids to bully other students as a prank #trending,POL-KIDS,Inappropriate Content for Kids,RED,Kids bullying promotion
+CNT-0396,Viewer requested: Political debate using offensive language about ethnic minorities,POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0025,Movie scene showing character with visibly broken bones and blood #trending,POL-VIOL,Violence,YELLOW,Dramatized severe injuries
+CNT-0085,Part 2: Music video with rapper shown briefly near a bag of white powder,POL-DRUG,Recreational Drugs,GREEN,Music drugs fleeting
+CNT-0017,Extended cut: Documentary about World War 2 showing fully blurred archival bodies - full version,POL-VIOL,Violence,GREEN,Historical dead bodies obscured
+CNT-0086,GTA gameplay where character completes drug dealing mission - viewer discretion advised,POL-DRUG,Recreational Drugs,GREEN,Gaming drug deals
+CNT-0386,Public debate about immigration policy without hateful rhetoric #trending,POL-HATE,Hateful & Derogatory Content,GREEN,Public debate protected groups
+CNT-0154,Tutorial on how to install spyware on someone's phone secretly,POL-DISHON,Enabling Dishonest Behavior,RED,Tracking without consent
+CNT-0267,Trending: Urban exploration of abandoned hospital with documented permission,POL-DISHON,Enabling Dishonest Behavior,GREEN,Urban exploration permitted
+CNT-0318,Trending: Video harassing and intimidating a small business owner repeatedly (2024),POL-INCEND,Incendiary & Demeaning,YELLOW,Harassment intimidation
+CNT-0469,Discussion video about proposed gun control legislation | unedited,POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0367,Full video: Dance video with deliberate camera zoom on sexual body parts | unedited,POL-ADULT,Adult Content,YELLOW,Deliberate focus sexual parts dance
+CNT-0096,New upload: Airsoft team competition video with proper protective equipment,POL-FIRE,Firearms,GREEN,Airsoft responsible use
+CNT-0094,Part 2: Tutorial on cleaning and maintaining a hunting rifle (2024),POL-FIRE,Firearms,GREEN,Firearm maintenance
+CNT-0328,Viewer requested: Tutorial on how to install spyware on someone's phone secretly - full version,POL-DISHON,Enabling Dishonest Behavior,RED,Tracking without consent
+CNT-0157,New upload: Dermatologist explaining ear wax removal procedure educationally - viewer discretion advised,POL-SHOCK,Shocking Content,GREEN,Medical procedure educational
+CNT-0134,New upload: Video encouraging kids to bully other students as a prank (2024),POL-KIDS,Inappropriate Content for Kids,RED,Kids bullying promotion
+CNT-0135,Reupload of Video focused entirely on publicly shaming a specific person (2024),POL-INCEND,Incendiary & Demeaning,YELLOW,Shaming individual
+CNT-0173,New upload: Political debate using offensive language about ethnic minorities (2024),POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0276,Pimple popping compilation by a medical professional with explanations - viewer discretion advised,POL-SHOCK,Shocking Content,YELLOW,Medical procedure focal bodily
+CNT-0064,Challenge video eating Carolina Reaper pepper with visible distress | unedited,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0361,Trending: Thumbnail displaying the f-word prominently in large text | unedited,POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0253,Viewer requested: Video promoting a new line of flavored vape pens and e-liquids | unedited,POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0363,Extended cut: Video with thumbnail showing 18+ adult content warning #trending,POL-ADULT,Adult Content,RED,Adult content thumbnail
+CNT-0199,Reupload of Content promoting white supremacist ideology and symbols (2024),POL-HATE,Hateful & Derogatory Content,RED,Promoting hate groups
+CNT-0297,New upload: Prank where person is told their spouse died causing extreme distress - full version,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Emotional distress prank
+CNT-0500,Viewer requested: Video showing graphic dead bodies with exposed wounds no context #trending,POL-VIOL,Violence,RED,Graphic dead bodies non-educational
+CNT-0350,Part 2: Classical art painting showing discernible sexual acts in thumbnail,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0445,Video promoting extreme caloric restriction and showing emaciated body - viewer discretion advised,POL-CONTROV,Controversial Issues,RED,Eating disorder triggering
+CNT-0485,Woman breastfeeding her infant in a parenting vlog - full version,POL-ADULT,Adult Content,GREEN,Breastfeeding with child
+CNT-0225,Trending: Video about phone jailbreaking and custom ROM installation #trending,POL-DISHON,Enabling Dishonest Behavior,GREEN,Digital lifehacks
+CNT-0129,Viewer requested: Kids yoga and fitness routine with animated characters,POL-KIDS,Inappropriate Content for Kids,GREEN,Sports fitness kids
+CNT-0122,Video about phone jailbreaking and custom ROM installation (2024),POL-DISHON,Enabling Dishonest Behavior,GREEN,Digital lifehacks
+CNT-0252,Extended cut: Documentary showing a child being verbally abused by parent - full version,POL-CONTROV,Controversial Issues,YELLOW,Child abuse non-graphic
+CNT-0229,Trending: Tattoo procedure video showing the tattooing process with minimal blood,POL-SHOCK,Shocking Content,GREEN,Cosmetic procedure educational
+CNT-0451,Part 2: Video showing exposed nudity with clearly visible sexual body parts,POL-ADULT,Adult Content,RED,Full nudity
+CNT-0284,New upload: Tattoo procedure video showing the tattooing process with minimal blood - viewer discretion advised,POL-SHOCK,Shocking Content,GREEN,Cosmetic procedure educational
+CNT-0147,BB gun battle without protective gear in public park | unedited,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0209,New upload: Animated content for kids featuring adult horror characters like Momo | unedited,POL-KIDS,Inappropriate Content for Kids,RED,Horror kids Momo
+CNT-0400,Reupload of Documentary about the history of the war on drugs in America #trending,POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0383,Reupload of Raw footage of soldiers firing weapons in a conflict zone,POL-VIOL,Violence,YELLOW,Armed conflict raw footage
+CNT-0142,Content repeatedly using homophobic slurs as insults,POL-LANG,Inappropriate Language,RED,Extreme profanity/slurs
+CNT-0237,New upload: Challenge video eating Carolina Reaper pepper with visible distress | unedited,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0210,Part 2: Cooking tutorial showing raw fish being prepared on cutting board,POL-SHOCK,Shocking Content,GREEN,Unsensational food preparation
+CNT-0099,Step-by-step guide on how to 3D print a functional firearm,POL-FIRE,Firearms,RED,3D printed guns
+CNT-0431,Full video: News reporter covering a natural disaster aftermath respectfully - viewer discretion advised,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0153,Content denying a documented genocide and calling survivors liars,POL-HATE,Hateful & Derogatory Content,RED,Denying tragic events
+CNT-0366,New upload: Documentary about the history of the war on drugs in America,POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0324,Video making false claims about election fraud to undermine voting,POL-HARM,Harmful Acts & Unreliable Content,RED,Election misinformation
+CNT-0166,New upload: Street fight compilation with visible injuries in educational breakdown - viewer discretion advised,POL-VIOL,Violence,YELLOW,Street fights educational
+CNT-0404,Viewer requested: Classical art painting showing discernible sexual acts in thumbnail,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0372,News segment covering abortion legislation changes factually,POL-CONTROV,Controversial Issues,GREEN,Non-graphic abortion coverage
+CNT-0095,Discussion video about proposed gun control legislation (2024),POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0378,Trending: Influencer promoting herbal cigarettes as a healthy alternative - full version,POL-TOBAC,Tobacco-Related Content,YELLOW,Herbal cigarettes promotion
+CNT-0295,Viewer requested: Video promoting essay writing services for university assignments | unedited,POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0467,Reupload of Movie scene showing character with visibly broken bones and blood - viewer discretion advised,POL-VIOL,Violence,YELLOW,Dramatized severe injuries
+CNT-0241,Extended cut: Kids channel video showing realistic toy guns being fired,POL-KIDS,Inappropriate Content for Kids,RED,Guns kids content
+CNT-0349,Reupload of Content reviewing and comparing different cigar brands favorably #trending,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0019,Reupload of Self-defense tutorial demonstrating basic blocking techniques,POL-VIOL,Violence,GREEN,Fights educational context
+CNT-0130,Kids channel video showing realistic toy guns being fired #trending,POL-KIDS,Inappropriate Content for Kids,RED,Guns kids content
+CNT-0091,Full video: Video sharing links to websites where drugs can be purchased online | unedited,POL-DRUG,Recreational Drugs,RED,Selling drugs online
+CNT-0381,Part 2: Prank video where friends pretend to be caught in sexual situation - viewer discretion advised,POL-ADULT,Adult Content,YELLOW,Sexual theme pranks
+CNT-0152,Video promoting a new line of flavored vape pens and e-liquids #trending,POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0390,Reupload of Step-by-step guide on how to 3D print a functional firearm - viewer discretion advised,POL-FIRE,Firearms,RED,3D printed guns
+CNT-0298,Reupload of Video using clickbait title about recent tragedy to get views,POL-SENSIT,Sensitive Events,RED,Clickbait tragedy
+CNT-0078,Full video: Video stating all people of a certain nationality are inferior,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group
+CNT-0162,Full video: Car crash dashcam footage with strong moment of impact (2024),POL-SHOCK,Shocking Content,YELLOW,High impact accident
+CNT-0274,New upload: Professional wingsuit flying over mountains filmed with drone,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Professional stunts
+CNT-0258,Extended cut: Video promoting a specific online gun store with discount codes - viewer discretion advised,POL-FIRE,Firearms,RED,Gun sales promotion
+CNT-0018,Part 2: Boxing match at professional arena with visible face punches (2024),POL-VIOL,Violence,GREEN,Combat sports professional setting
+CNT-0323,Podcast episode where hosts use 'shit' multiple times in conversation (2024),POL-LANG,Inappropriate Language,GREEN,Moderate profanity in video
+CNT-0039,Full video: Classical art painting showing discernible sexual acts in thumbnail - full version,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0348,Extended cut: Tattoo procedure video showing the tattooing process with minimal blood,POL-SHOCK,Shocking Content,GREEN,Cosmetic procedure educational
+CNT-0442,Part 2: Cooking tutorial showing raw fish being prepared on cutting board #trending,POL-SHOCK,Shocking Content,GREEN,Unsensational food preparation
+CNT-0436,Full video: BB gun battle without protective gear in public park - viewer discretion advised,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0083,Trending: Documentary about the history of the war on drugs in America - viewer discretion advised,POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0355,Part 2: News segment covering abortion legislation changes factually - viewer discretion advised,POL-CONTROV,Controversial Issues,GREEN,Non-graphic abortion coverage
+CNT-0163,Extended cut: Video claiming COVID-19 vaccines contain microchips (2024),POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0495,Viewer requested: Video showing graphic dead bodies with exposed wounds no context - viewer discretion advised,POL-VIOL,Violence,RED,Graphic dead bodies non-educational
+CNT-0239,Content claiming a school shooting was staged with crisis actors - viewer discretion advised,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0226,Part 2: History channel showing dead bodies with visible wounds in documentary - viewer discretion advised,POL-VIOL,Violence,YELLOW,Dead bodies injury educational
+CNT-0358,Part 2: Documentary about the history of the war on drugs in America,POL-DRUG,Recreational Drugs,GREEN,Drug education documentary
+CNT-0403,Extended cut: Video about phone jailbreaking and custom ROM installation | unedited,POL-DISHON,Enabling Dishonest Behavior,GREEN,Digital lifehacks
+CNT-0392,Part 2: Boxing match at professional arena with visible face punches,POL-VIOL,Violence,GREEN,Combat sports professional setting
+CNT-0340,Reupload of Mukbang video eating live octopus tentacles in theatrical manner - full version,POL-SHOCK,Shocking Content,YELLOW,Sensational mukbang
+CNT-0145,Viewer requested: Guide on creating fake government identification documents (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Fake ID creation
+CNT-0194,Extended cut: GTA gameplay where character completes drug dealing mission,POL-DRUG,Recreational Drugs,GREEN,Gaming drug deals
+CNT-0119,Urban exploration of abandoned hospital with documented permission (2024),POL-DISHON,Enabling Dishonest Behavior,GREEN,Urban exploration permitted
+CNT-0127,Extended cut: Animated educational video teaching kids about stranger danger - full version,POL-KIDS,Inappropriate Content for Kids,GREEN,Kids educational safety
+CNT-0292,Trending: Video exploiting recent earthquake footage to promote survival gear | unedited,POL-SENSIT,Sensitive Events,RED,Exploiting tragedy
+CNT-0198,Viewer requested: Pimple popping compilation by a medical professional with explanations - full version,POL-SHOCK,Shocking Content,YELLOW,Medical procedure focal bodily
+CNT-0244,Part 2: Challenge video eating Carolina Reaper pepper with visible distress,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0280,Full video: Video challenging viewers to drink bleach for supposed health benefits (2024),POL-HARM,Harmful Acts & Unreliable Content,RED,Dangerous challenge critical harm
+CNT-0020,Full video: News report mentioning a local homicide without graphic descriptions,POL-VIOL,Violence,GREEN,Coverage of tragedies limited
+CNT-0418,Extended cut: Raw footage of soldiers firing weapons in a conflict zone,POL-VIOL,Violence,YELLOW,Armed conflict raw footage
+CNT-0327,Part 2: Podcast episode where hosts use 'shit' multiple times in conversation | unedited,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in video
+CNT-0305,Reupload of Content disguised as kids cartoon but containing sexual innuendos,POL-KIDS,Inappropriate Content for Kids,RED,Adult themes kids disguised
+CNT-0266,Trending: Video titled 'how to end your life with dignity' with instructions,POL-CONTROV,Controversial Issues,RED,Promote suicide
+CNT-0347,Part 2: Ice bucket challenge video with friends laughing,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Pranks no risk
+CNT-0045,Viewer requested: Video featuring sex toys being demonstrated and reviewed | unedited,POL-ADULT,Adult Content,RED,Sex toys or devices
+CNT-0475,New upload: Gun review video at a professional shooting range with safety gear #trending,POL-FIRE,Firearms,GREEN,Shooting range gun review
+CNT-0066,Video challenging viewers to drink bleach for supposed health benefits,POL-HARM,Harmful Acts & Unreliable Content,RED,Dangerous challenge critical harm
+CNT-0075,New upload: Public debate about immigration policy without hateful rhetoric #trending,POL-HATE,Hateful & Derogatory Content,GREEN,Public debate protected groups
+CNT-0053,Reupload of Car crash dashcam footage with strong moment of impact - viewer discretion advised,POL-SHOCK,Shocking Content,YELLOW,High impact accident
+CNT-0121,Viewer requested: Documentary about infamous bank robbers and their capture (2024),POL-DISHON,Enabling Dishonest Behavior,GREEN,Crime documentary
+CNT-0493,Viewer requested: Documentary about World War 2 showing fully blurred archival bodies | unedited,POL-VIOL,Violence,GREEN,Historical dead bodies obscured
+CNT-0375,Full video: Content disguised as kids cartoon but containing sexual innuendos - viewer discretion advised,POL-KIDS,Inappropriate Content for Kids,RED,Adult themes kids disguised
+CNT-0179,Part 2: Thumbnail showing graphic image of self-harm scars for awareness video,POL-CONTROV,Controversial Issues,YELLOW,Controversial thumbnail graphic
+CNT-0100,Trending: Video promoting a specific online gun store with discount codes (2024),POL-FIRE,Firearms,RED,Gun sales promotion
+CNT-0265,New upload: Thumbnail with text overlay reading 'BULL***T' #trending,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in thumbnail
+CNT-0427,Reupload of Discussion video about navigating relationships and dating | unedited,POL-ADULT,Adult Content,GREEN,Discussions of relationships
+CNT-0262,Extended cut: Movie scene showing character injecting heroin in dramatic context #trending,POL-DRUG,Recreational Drugs,YELLOW,Drug consumption dramatized
+CNT-0293,Erotic dance performance explicitly intended to arouse the audience #trending,POL-ADULT,Adult Content,RED,Erotic dance arousal intent
+CNT-0087,Reupload of Movie scene showing character injecting heroin in dramatic context (2024),POL-DRUG,Recreational Drugs,YELLOW,Drug consumption dramatized
+CNT-0171,Part 2: Content reviewing and comparing different cigar brands favorably - viewer discretion advised,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0114,Reupload of News reporter covering a natural disaster aftermath respectfully,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0376,Viewer requested: Family-friendly cooking tutorial for kids making cupcakes,POL-KIDS,Inappropriate Content for Kids,GREEN,Safe DIY kids
+CNT-0377,Reupload of Bodycam footage of routine police arrest with forcible handcuffing - full version,POL-VIOL,Violence,GREEN,Law enforcement in action
+CNT-0322,Trending: Gun review video at a professional shooting range with safety gear - full version,POL-FIRE,Firearms,GREEN,Shooting range gun review
+CNT-0041,Part 2: Prank video where friends pretend to be caught in sexual situation #trending,POL-ADULT,Adult Content,YELLOW,Sexual theme pranks
+CNT-0269,Viewer requested: Close-up video of extreme surgical procedure with exposed organs no context - full version,POL-SHOCK,Shocking Content,RED,Gruesome gory no context
+CNT-0369,PSA video about suicide prevention hotline and mental health resources,POL-CONTROV,Controversial Issues,GREEN,Preventing controversial issues
+CNT-0279,Viewer requested: Content showing person eating live insects solely to shock viewers #trending,POL-SHOCK,Shocking Content,RED,Eating live animals shock
+CNT-0125,Extended cut: Guide on creating fake government identification documents (2024),POL-DISHON,Enabling Dishonest Behavior,RED,Fake ID creation
+CNT-0055,Viewer requested: Close-up video of extreme surgical procedure with exposed organs no context | unedited,POL-SHOCK,Shocking Content,RED,Gruesome gory no context
+CNT-0409,Extended cut: Discussion video about navigating relationships and dating,POL-ADULT,Adult Content,GREEN,Discussions of relationships
+CNT-0046,Part 2: Erotic dance performance explicitly intended to arouse the audience #trending,POL-ADULT,Adult Content,RED,Erotic dance arousal intent
+CNT-0186,Discussion video about proposed gun control legislation (2024),POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0395,Part 2: Comedy sketch where host says 'what the hell' and 'damn' throughout #trending,POL-LANG,Inappropriate Language,GREEN,Abbreviated/obscured profanity
+CNT-0088,Full video: Dramatized TV series episode depicting cocaine manufacturing lab,POL-DRUG,Recreational Drugs,YELLOW,Drug creation dramatized
+CNT-0354,Part 2: Ethical hacking tutorial explaining penetration testing methodology #trending,POL-DISHON,Enabling Dishonest Behavior,GREEN,Ethical hacking
+CNT-0011,Reupload of Thumbnail displaying the f-word prominently in large text #trending,POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0371,Full video: Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0333,Part 2: Classical art painting showing discernible sexual acts in thumbnail,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0313,Full video: Content claiming a school shooting was staged with crisis actors | unedited,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0214,Full video: Music video with rapper shown briefly near a bag of white powder #trending,POL-DRUG,Recreational Drugs,GREEN,Music drugs fleeting
+CNT-0208,Extended cut: Content denying a documented genocide and calling survivors liars - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,RED,Denying tragic events
+CNT-0393,Full video: Documentary showing a child being verbally abused by parent,POL-CONTROV,Controversial Issues,YELLOW,Child abuse non-graphic
+CNT-0448,Trending: Documentary showing a child being verbally abused by parent (2024),POL-CONTROV,Controversial Issues,YELLOW,Child abuse non-graphic
+CNT-0040,Reupload of Educational video about STDs using animated depictions of sex #trending,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0236,Viewer requested: Content disguised as kids cartoon but containing sexual innuendos,POL-KIDS,Inappropriate Content for Kids,RED,Adult themes kids disguised
+CNT-0010,Video titled 'F*ck This Product' with uncensored profanity - viewer discretion advised,POL-LANG,Inappropriate Language,RED,Strong profanity in title
+CNT-0224,Reupload of News reporter covering a natural disaster aftermath respectfully - viewer discretion advised,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0022,New upload: History channel showing dead bodies with visible wounds in documentary - full version,POL-VIOL,Violence,YELLOW,Dead bodies injury educational
+CNT-0204,Full video: Video harassing and intimidating a small business owner repeatedly,POL-INCEND,Incendiary & Demeaning,YELLOW,Harassment intimidation
+CNT-0037,Part 2: Discussion video about navigating relationships and dating | unedited,POL-ADULT,Adult Content,GREEN,Discussions of relationships
+CNT-0420,Political debate using offensive language about ethnic minorities,POL-HATE,Hateful & Derogatory Content,YELLOW,Offensive language educational debate
+CNT-0287,Full video: Thumbnail displaying the f-word prominently in large text - viewer discretion advised,POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0257,Full video: Music video with backing track containing bleeped profanity - full version,POL-LANG,Inappropriate Language,GREEN,Obscured profanity in music
+CNT-0118,Full video: Video exploiting recent earthquake footage to promote survival gear,POL-SENSIT,Sensitive Events,RED,Exploiting tragedy
+CNT-0273,Video promoting a new line of flavored vape pens and e-liquids - full version,POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0195,Part 2: Challenge video eating Carolina Reaper pepper with visible distress (2024),POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0430,Trending: Content reviewing and comparing different cigar brands favorably,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0090,Tutorial on how to grow marijuana plants at home,POL-DRUG,Recreational Drugs,RED,Cannabis farming tips
+CNT-0331,Extended cut: Documentary about World War 2 showing fully blurred archival bodies | unedited,POL-VIOL,Violence,GREEN,Historical dead bodies obscured
+CNT-0255,Extended cut: Personal recovery story from someone who overcame bulimia,POL-CONTROV,Controversial Issues,YELLOW,Eating disorder recovery
+CNT-0397,Viewer requested: Classical art painting showing discernible sexual acts in thumbnail - viewer discretion advised,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0062,Extended cut: Parkour video on top of skyscrapers without safety equipment - full version,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,High risk activities
+CNT-0168,Full video: Romantic comedy scene with characters kissing passionately,POL-ADULT,Adult Content,GREEN,Romance or kissing
+CNT-0149,Thumbnail showing graphic image of self-harm scars for awareness video #trending,POL-CONTROV,Controversial Issues,YELLOW,Controversial thumbnail graphic
+CNT-0446,Trending: Tutorial on cleaning and maintaining a hunting rifle,POL-FIRE,Firearms,GREEN,Firearm maintenance
+CNT-0071,Extended cut: Video making false claims about election fraud to undermine voting - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,RED,Election misinformation
+CNT-0474,Reupload of News reporter covering a natural disaster aftermath respectfully,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0155,Trending: Content claiming a school shooting was staged with crisis actors,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0105,Movie scene showing character jumping from bridge in larger narrative,POL-CONTROV,Controversial Issues,GREEN,Dramatized controversial
+CNT-0452,Part 2: Video promoting essay writing services for university assignments #trending,POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0029,Part 2: Content glorifying gang violence and encouraging retaliation,POL-VIOL,Violence,RED,Glorification of violence
+CNT-0307,Viewer requested: Parkour video on top of skyscrapers without safety equipment #trending,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,High risk activities
+CNT-0203,Extended cut: Animated content for kids featuring adult horror characters like Momo #trending,POL-KIDS,Inappropriate Content for Kids,RED,Horror kids Momo
+CNT-0113,Video promoting extreme caloric restriction and showing emaciated body (2024),POL-CONTROV,Controversial Issues,RED,Eating disorder triggering
+CNT-0024,Part 2: Raw footage of soldiers firing weapons in a conflict zone,POL-VIOL,Violence,YELLOW,Armed conflict raw footage
+CNT-0158,Reupload of Boxing match at professional arena with visible face punches | unedited,POL-VIOL,Violence,GREEN,Combat sports professional setting
+CNT-0270,Extended cut: Movie scene showing character injecting heroin in dramatic context - full version,POL-DRUG,Recreational Drugs,YELLOW,Drug consumption dramatized
+CNT-0250,Reupload of Classical art painting showing discernible sexual acts in thumbnail | unedited,POL-ADULT,Adult Content,YELLOW,Classical art sexual thumbnail
+CNT-0304,Video making false claims about election fraud to undermine voting,POL-HARM,Harmful Acts & Unreliable Content,RED,Election misinformation
+CNT-0146,PSA video about suicide prevention hotline and mental health resources (2024),POL-CONTROV,Controversial Issues,GREEN,Preventing controversial issues
+CNT-0057,Part 2: Video focused entirely on graphic wound close-ups with no medical context (2024),POL-SHOCK,Shocking Content,RED,Disgusting no context
+CNT-0462,Reupload of Personal story about recovering from opioid addiction #trending,POL-DRUG,Recreational Drugs,GREEN,Addiction recovery
+CNT-0177,Video claiming COVID-19 vaccines contain microchips | unedited,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0398,Full video: Video promoting essay writing services for university assignments - full version,POL-DISHON,Enabling Dishonest Behavior,RED,Essay writing service
+CNT-0263,Viewer requested: Video showing exposed nudity with clearly visible sexual body parts (2024),POL-ADULT,Adult Content,RED,Full nudity
+CNT-0362,Viewer requested: Content disguised as kids cartoon but containing sexual innuendos - full version,POL-KIDS,Inappropriate Content for Kids,RED,Adult themes kids disguised
+CNT-0423,Reupload of Woman breastfeeding her infant in a parenting vlog - viewer discretion advised,POL-ADULT,Adult Content,GREEN,Breastfeeding with child
+CNT-0453,New upload: Movie scene showing character injecting heroin in dramatic context | unedited,POL-DRUG,Recreational Drugs,YELLOW,Drug consumption dramatized
+CNT-0343,Prank video where friends pretend to be caught in sexual situation | unedited,POL-ADULT,Adult Content,YELLOW,Sexual theme pranks
+CNT-0311,Part 2: Prank where person is told their spouse died causing extreme distress #trending,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Emotional distress prank
+CNT-0249,New upload: Video promoting a new line of flavored vape pens and e-liquids (2024),POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0218,Reupload of Graphic depiction of violence between children in schoolyard | unedited,POL-VIOL,Violence,RED,Violence concerning minors
+CNT-0339,New upload: Action movie clip showing character getting punched with minimal blood,POL-VIOL,Violence,GREEN,Dramatized non-graphic violence
+CNT-0227,New upload: GTA gameplay where character completes drug dealing mission,POL-DRUG,Recreational Drugs,GREEN,Gaming drug deals
+CNT-0433,Viewer requested: Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0496,Video focused entirely on graphic wound close-ups with no medical context #trending,POL-SHOCK,Shocking Content,RED,Disgusting no context
+CNT-0026,Viewer requested: Street fight compilation with visible injuries in educational breakdown - viewer discretion advised,POL-VIOL,Violence,YELLOW,Street fights educational
+CNT-0317,Full video: Home video of person accidentally walking into glass door,POL-SHOCK,Shocking Content,GREEN,Accident no visible injury
+CNT-0357,Hunting video where the moment of kill is indiscernible in the distance | unedited,POL-VIOL,Violence,GREEN,Hunting non-graphic
+CNT-0406,New upload: Music video with rapper shown briefly near a bag of white powder,POL-DRUG,Recreational Drugs,GREEN,Music drugs fleeting
+CNT-0415,Video promoting a new line of flavored vape pens and e-liquids - viewer discretion advised,POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0438,Part 2: Video showing a 12-year-old child firing a rifle without adult present,POL-FIRE,Firearms,RED,Minors guns unsupervised
+CNT-0482,New upload: Car crash dashcam footage with strong moment of impact,POL-SHOCK,Shocking Content,YELLOW,High impact accident
+CNT-0291,Full video: Content showing close-up of fresh self-harm cuts with visible blood #trending,POL-CONTROV,Controversial Issues,RED,Graphic self-harm
+CNT-0484,Full video: Ice bucket challenge video with friends laughing,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Pranks no risk
+CNT-0412,New upload: Video showing a 12-year-old child firing a rifle without adult present,POL-FIRE,Firearms,RED,Minors guns unsupervised
+CNT-0190,New upload: Challenge video eating Carolina Reaper pepper with visible distress - full version,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0081,Content denying a documented genocide and calling survivors liars #trending,POL-HATE,Hateful & Derogatory Content,RED,Denying tragic events
+CNT-0175,Part 2: Educational video about STDs using animated depictions of sex - full version,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0460,Full video: BB gun battle without protective gear in public park,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0215,Part 2: Content depicting graphic torture of a restrained person - viewer discretion advised,POL-VIOL,Violence,RED,Graphic torture
+CNT-0193,Trending: Thumbnail with text overlay reading 'BULL***T' #trending,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in thumbnail
+CNT-0463,Viewer requested: Documentary about World War 2 showing fully blurred archival bodies #trending,POL-VIOL,Violence,GREEN,Historical dead bodies obscured
+CNT-0481,Reupload of GTA gameplay where character completes drug dealing mission (2024),POL-DRUG,Recreational Drugs,GREEN,Gaming drug deals
+CNT-0440,Reupload of Educational video about the history of the civil rights movement - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,GREEN,Educational with obscured slurs
+CNT-0016,Trending: Action movie clip showing character getting punched with minimal blood #trending,POL-VIOL,Violence,GREEN,Dramatized non-graphic violence
+CNT-0488,Trending: Thumbnail with text overlay reading 'BULL***T',POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in thumbnail
+CNT-0073,Part 2: Comedy sketch satirizing and condemning racist stereotypes - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,GREEN,Comedy condemning hate
+CNT-0036,New upload: Music video featuring choreographed hip-hop dancing in a studio | unedited,POL-ADULT,Adult Content,GREEN,Sexually graphic dance professional
+CNT-0206,Video claiming COVID-19 vaccines contain microchips,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0384,Viewer requested: Gameplay where player aggregates NPCs for mass killing compilation,POL-VIOL,Violence,RED,Manufactured shocking gameplay
+CNT-0290,Viewer requested: Personal recovery story from someone who overcame bulimia,POL-CONTROV,Controversial Issues,YELLOW,Eating disorder recovery
+CNT-0074,Educational video about the history of the civil rights movement #trending,POL-HATE,Hateful & Derogatory Content,GREEN,Educational with obscured slurs
+CNT-0380,Reupload of Rap music video titled 'That Sh*t Hits Different' #trending,POL-LANG,Inappropriate Language,YELLOW,Profanity in music title
+CNT-0004,New upload: Podcast episode where hosts use 'shit' multiple times in conversation #trending,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in video
+CNT-0401,Extended cut: Parkour video on top of skyscrapers without safety equipment (2024),POL-HARM,Harmful Acts & Unreliable Content,YELLOW,High risk activities
+CNT-0457,Video showing a 12-year-old child firing a rifle without adult present - full version,POL-FIRE,Firearms,RED,Minors guns unsupervised
+CNT-0159,Reupload of Video showing real-world execution footage from conflict zone - viewer discretion advised,POL-VIOL,Violence,RED,Ultra graphic violent acts
+CNT-0473,Reupload of Discussion video about proposed gun control legislation | unedited,POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0140,New upload: Content reviewing and comparing different cigar brands favorably | unedited,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0093,Full video: Gun review video at a professional shooting range with safety gear,POL-FIRE,Firearms,GREEN,Shooting range gun review
+CNT-0015,Gameplay video of Call of Duty with combat starting after intro,POL-VIOL,Violence,GREEN,Unedited gameplay after 15s
+CNT-0137,Trending: Compilation video dedicated to insulting and mocking a public figure | unedited,POL-INCEND,Incendiary & Demeaning,YELLOW,Malicious personal attacks
+CNT-0356,Viewer requested: Video promoting a new line of flavored vape pens and e-liquids | unedited,POL-TOBAC,Tobacco-Related Content,YELLOW,Promoting tobacco products
+CNT-0405,Graphic depiction of violence between children in schoolyard - viewer discretion advised,POL-VIOL,Violence,RED,Violence concerning minors
+CNT-0494,Gun review video at a professional shooting range with safety gear - viewer discretion advised,POL-FIRE,Firearms,GREEN,Shooting range gun review
+CNT-0014,Part 2: Bodycam footage of routine police arrest with forcible handcuffing,POL-VIOL,Violence,GREEN,Law enforcement in action
+CNT-0286,New upload: Video stating all people of a certain nationality are inferior,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group
+CNT-0330,New upload: Tutorial on how to install spyware on someone's phone secretly,POL-DISHON,Enabling Dishonest Behavior,RED,Tracking without consent
+CNT-0346,Viewer requested: Comedy sketch satirizing and condemning racist stereotypes,POL-HATE,Hateful & Derogatory Content,GREEN,Comedy condemning hate
+CNT-0315,Part 2: Content selling merchandise themed around a recent terrorist attack - full version,POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0319,Viewer requested: Content showing person eating live insects solely to shock viewers - full version,POL-SHOCK,Shocking Content,RED,Eating live animals shock
+CNT-0425,New upload: Video featuring sex toys being demonstrated and reviewed - viewer discretion advised,POL-ADULT,Adult Content,RED,Sex toys or devices
+CNT-0220,Extended cut: Video stating all people of a certain nationality are inferior - viewer discretion advised,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group
+CNT-0116,Video using clickbait title about recent tragedy to get views (2024),POL-SENSIT,Sensitive Events,RED,Clickbait tragedy
+CNT-0294,Content claiming that cancer can be cured through diet alone,POL-HARM,Harmful Acts & Unreliable Content,RED,Medical misinformation
+CNT-0143,New upload: Podcast episode where hosts use 'shit' multiple times in conversation,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in video
+CNT-0391,Trending: Animated content for kids featuring adult horror characters like Momo,POL-KIDS,Inappropriate Content for Kids,RED,Horror kids Momo
+CNT-0472,Part 2: Movie scene showing character jumping from bridge in larger narrative,POL-CONTROV,Controversial Issues,GREEN,Dramatized controversial
+CNT-0189,Full video: Thumbnail displaying the f-word prominently in large text (2024),POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0429,Viewer requested: Stand-up comedy set with frequent use of 'bitch' and 'asshole' - full version,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in comedy
+CNT-0180,Full video: Comedy sketch where host says 'what the hell' and 'damn' throughout,POL-LANG,Inappropriate Language,GREEN,Abbreviated/obscured profanity
+CNT-0056,Viewer requested: Content showing person eating live insects solely to shock viewers (2024),POL-SHOCK,Shocking Content,RED,Eating live animals shock
+CNT-0115,New upload: Documentary discussing the impact of a mass shooting on community #trending,POL-SENSIT,Sensitive Events,GREEN,Documentary sensitive event
+CNT-0247,Part 2: News report mentioning a local homicide without graphic descriptions (2024),POL-VIOL,Violence,GREEN,Coverage of tragedies limited
+CNT-0337,Part 2: News reporter covering a natural disaster aftermath respectfully,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0080,Trending: Video singling out a specific person for targeted harassment campaign | unedited,POL-HATE,Hateful & Derogatory Content,RED,Singling out for harassment
+CNT-0109,Thumbnail showing graphic image of self-harm scars for awareness video | unedited,POL-CONTROV,Controversial Issues,YELLOW,Controversial thumbnail graphic
+CNT-0260,Part 2: Video focused entirely on graphic wound close-ups with no medical context | unedited,POL-SHOCK,Shocking Content,RED,Disgusting no context
+CNT-0296,Full video: Prank involving fake bomb scare in a crowded public place,POL-HARM,Harmful Acts & Unreliable Content,RED,Terrorism prank
+CNT-0054,Full video: Mukbang video eating live octopus tentacles in theatrical manner (2024),POL-SHOCK,Shocking Content,YELLOW,Sensational mukbang
+CNT-0181,Part 2: Romantic comedy scene with characters kissing passionately (2024),POL-ADULT,Adult Content,GREEN,Romance or kissing
+CNT-0160,New upload: Thumbnail displaying the f-word prominently in large text | unedited,POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0308,Viewer requested: Video showing how to break into houses using lockpicking tools,POL-DISHON,Enabling Dishonest Behavior,RED,Trespassing promotion
+CNT-0148,Viewer requested: Video claiming COVID-19 vaccines contain microchips - full version,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0027,New upload: Documentary on recent homicide with descriptive language about death | unedited,POL-VIOL,Violence,YELLOW,Tragedy graphic details
+CNT-0465,Music video featuring choreographed hip-hop dancing in a studio,POL-ADULT,Adult Content,GREEN,Sexually graphic dance professional
+CNT-0217,Part 2: News segment covering abortion legislation changes factually - viewer discretion advised,POL-CONTROV,Controversial Issues,GREEN,Non-graphic abortion coverage
+CNT-0385,Viewer requested: Educational video about STDs using animated depictions of sex #trending,POL-ADULT,Adult Content,YELLOW,Non-arousing sexual education
+CNT-0447,Full video: Documentary with unbleeped racial slurs for educational impact #trending,POL-HATE,Hateful & Derogatory Content,YELLOW,Unobscured slurs educational
+CNT-0182,News reporter covering a natural disaster aftermath respectfully #trending,POL-SENSIT,Sensitive Events,GREEN,News reporting sensitive
+CNT-0211,First person account describing child abuse in graphic sexual detail - viewer discretion advised,POL-CONTROV,Controversial Issues,RED,Graphic child abuse descriptive
+CNT-0063,Reupload of Prank where person is told their spouse died causing extreme distress (2024),POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Emotional distress prank
+CNT-0344,Viewer requested: Video using clickbait title about recent tragedy to get views - full version,POL-SENSIT,Sensitive Events,RED,Clickbait tragedy
+CNT-0169,Full video: Prank where person is told their spouse died causing extreme distress - full version,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Emotional distress prank
+CNT-0439,Viewer requested: Content repeatedly using homophobic slurs as insults,POL-LANG,Inappropriate Language,RED,Extreme profanity/slurs
+CNT-0288,Full video: Video titled 'how to end your life with dignity' with instructions,POL-CONTROV,Controversial Issues,RED,Promote suicide
+CNT-0301,Trending: Personal story about recovering from opioid addiction | unedited,POL-DRUG,Recreational Drugs,GREEN,Addiction recovery
+CNT-0031,Reupload of Video showing real-world execution footage from conflict zone #trending,POL-VIOL,Violence,RED,Ultra graphic violent acts
+CNT-0285,New upload: Prank where person is told their spouse died causing extreme distress #trending,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Emotional distress prank
+CNT-0067,New upload: Content promoting anti-vaccination conspiracy theories as facts (2024),POL-HARM,Harmful Acts & Unreliable Content,RED,Anti-vaccination misinformation
+CNT-0416,Reupload of Boxing match at professional arena with visible face punches #trending,POL-VIOL,Violence,GREEN,Combat sports professional setting
+CNT-0191,Trending: Movie scene showing character jumping from bridge in larger narrative (2024),POL-CONTROV,Controversial Issues,GREEN,Dramatized controversial
+CNT-0379,Viewer requested: Video promoting extreme caloric restriction and showing emaciated body,POL-CONTROV,Controversial Issues,RED,Eating disorder triggering
+CNT-0382,Podcast episode where hosts use 'shit' multiple times in conversation | unedited,POL-LANG,Inappropriate Language,GREEN,Moderate profanity in video
+CNT-0050,Home video of person accidentally walking into glass door,POL-SHOCK,Shocking Content,GREEN,Accident no visible injury
+CNT-0222,Extended cut: Mukbang video eating live octopus tentacles in theatrical manner,POL-SHOCK,Shocking Content,YELLOW,Sensational mukbang
+CNT-0048,Full video: Dermatologist explaining ear wax removal procedure educationally,POL-SHOCK,Shocking Content,GREEN,Medical procedure educational
+CNT-0044,Reupload of Content discussing sexual fetishes with explicit descriptions (2024),POL-ADULT,Adult Content,RED,Discussion of fetishes
+CNT-0426,Reupload of BB gun battle without protective gear in public park | unedited,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0047,Video with thumbnail showing 18+ adult content warning (2024),POL-ADULT,Adult Content,RED,Adult content thumbnail
+CNT-0035,Reupload of Sex education video explaining contraception methods with diagrams,POL-ADULT,Adult Content,GREEN,Non-graphic sex education
+CNT-0243,Viewer requested: Video about phone jailbreaking and custom ROM installation - full version,POL-DISHON,Enabling Dishonest Behavior,GREEN,Digital lifehacks
+CNT-0352,Part 2: Video showing exposed nudity with clearly visible sexual body parts - viewer discretion advised,POL-ADULT,Adult Content,RED,Full nudity
+CNT-0079,Part 2: Content promoting white supremacist ideology and symbols | unedited,POL-HATE,Hateful & Derogatory Content,RED,Promoting hate groups
+CNT-0192,Trending: Dance video with deliberate camera zoom on sexual body parts | unedited,POL-ADULT,Adult Content,YELLOW,Deliberate focus sexual parts dance
+CNT-0131,New upload: Animated content for kids featuring adult horror characters like Momo,POL-KIDS,Inappropriate Content for Kids,RED,Horror kids Momo
+CNT-0341,Trending: Hunting video where the moment of kill is indiscernible in the distance (2024),POL-VIOL,Violence,GREEN,Hunting non-graphic
+CNT-0468,Extended cut: Sex education video explaining contraception methods with diagrams | unedited,POL-ADULT,Adult Content,GREEN,Non-graphic sex education
+CNT-0219,Trending: BB gun battle without protective gear in public park - viewer discretion advised,POL-FIRE,Firearms,YELLOW,BB guns no protection
+CNT-0161,Full video: Video encouraging kids to bully other students as a prank - full version,POL-KIDS,Inappropriate Content for Kids,RED,Kids bullying promotion
+CNT-0049,Cooking tutorial showing raw fish being prepared on cutting board (2024),POL-SHOCK,Shocking Content,GREEN,Unsensational food preparation
+CNT-0374,Brief mention 'next week we discuss declining suicide rates' in outro (2024),POL-CONTROV,Controversial Issues,GREEN,Fleeting reference
+CNT-0213,New upload: Content showing close-up of fresh self-harm cuts with visible blood #trending,POL-CONTROV,Controversial Issues,RED,Graphic self-harm
+CNT-0205,Part 2: Gameplay where player aggregates NPCs for mass killing compilation (2024),POL-VIOL,Violence,RED,Manufactured shocking gameplay
+CNT-0479,New upload: Content selling merchandise themed around a recent terrorist attack #trending,POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0424,Trending: Brief mention 'next week we discuss declining suicide rates' in outro (2024),POL-CONTROV,Controversial Issues,GREEN,Fleeting reference
+CNT-0174,New upload: Video claiming COVID-19 vaccines contain microchips,POL-HARM,Harmful Acts & Unreliable Content,RED,COVID misinformation
+CNT-0212,Reupload of Video harassing and intimidating a small business owner repeatedly - full version,POL-INCEND,Incendiary & Demeaning,YELLOW,Harassment intimidation
+CNT-0117,New upload: Content selling merchandise themed around a recent terrorist attack,POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0455,Extended cut: Professional wingsuit flying over mountains filmed with drone,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Professional stunts
+CNT-0232,Extended cut: Home video of person accidentally walking into glass door | unedited,POL-SHOCK,Shocking Content,GREEN,Accident no visible injury
+CNT-0476,Discussion video about proposed gun control legislation #trending,POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0111,Reupload of Content showing close-up of fresh self-harm cuts with visible blood,POL-CONTROV,Controversial Issues,RED,Graphic self-harm
+CNT-0444,Part 2: Thumbnail displaying the f-word prominently in large text,POL-LANG,Inappropriate Language,RED,Strong profanity in thumbnail
+CNT-0370,New upload: Content selling merchandise themed around a recent terrorist attack - full version,POL-SENSIT,Sensitive Events,RED,Profiting sensitive event
+CNT-0283,Extended cut: Person shooting targets in their backyard near residential area #trending,POL-FIRE,Firearms,YELLOW,Guns uncontrolled environment
+CNT-0394,Part 2: Kids channel video showing realistic toy guns being fired,POL-KIDS,Inappropriate Content for Kids,RED,Guns kids content
+CNT-0450,Content claiming a school shooting was staged with crisis actors - full version,POL-INCEND,Incendiary & Demeaning,YELLOW,Crisis actors claim
+CNT-0334,New upload: Challenge video eating Carolina Reaper pepper with visible distress - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Eating harmful substances
+CNT-0336,Extended cut: Video encouraging kids to bully other students as a prank | unedited,POL-KIDS,Inappropriate Content for Kids,RED,Kids bullying promotion
+CNT-0437,Part 2: Documentary with unbleeped racial slurs for educational impact,POL-HATE,Hateful & Derogatory Content,YELLOW,Unobscured slurs educational
+CNT-0059,Compilation of people failing at skateboard tricks with minor falls - viewer discretion advised,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Fail compilation non-graphic
+CNT-0360,Part 2: Video titled 'This is absolute shit' reviewing a bad product - viewer discretion advised,POL-LANG,Inappropriate Language,YELLOW,Moderate profanity in title
+CNT-0407,New upload: Video promoting extreme caloric restriction and showing emaciated body - viewer discretion advised,POL-CONTROV,Controversial Issues,RED,Eating disorder triggering
+CNT-0051,Full video: Tattoo procedure video showing the tattooing process with minimal blood | unedited,POL-SHOCK,Shocking Content,GREEN,Cosmetic procedure educational
+CNT-0221,Part 2: Comedy sketch where host says 'what the hell' and 'damn' throughout - full version,POL-LANG,Inappropriate Language,GREEN,Abbreviated/obscured profanity
+CNT-0310,Extended cut: Video focused entirely on graphic wound close-ups with no medical context #trending,POL-SHOCK,Shocking Content,RED,Disgusting no context
+CNT-0259,Reupload of Content reviewing and comparing different cigar brands favorably | unedited,POL-TOBAC,Tobacco-Related Content,YELLOW,Cigarettes cigars promotion
+CNT-0233,Reupload of PSA video about suicide prevention hotline and mental health resources (2024),POL-CONTROV,Controversial Issues,GREEN,Preventing controversial issues
+CNT-0151,Reupload of Documentary with unbleeped racial slurs for educational impact,POL-HATE,Hateful & Derogatory Content,YELLOW,Unobscured slurs educational
+CNT-0272,Viewer requested: Hunting video where the moment of kill is indiscernible in the distance,POL-VIOL,Violence,GREEN,Hunting non-graphic
+CNT-0306,Extended cut: Parkour video on top of skyscrapers without safety equipment | unedited,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,High risk activities
+CNT-0196,Extended cut: Video showing graphic dead bodies with exposed wounds no context,POL-VIOL,Violence,RED,Graphic dead bodies non-educational
+CNT-0167,Close-up video of extreme surgical procedure with exposed organs no context - full version,POL-SHOCK,Shocking Content,RED,Gruesome gory no context
+CNT-0365,Extended cut: Tutorial on how to grow marijuana plants at home - full version,POL-DRUG,Recreational Drugs,RED,Cannabis farming tips
+CNT-0281,Trending: Gameplay where player aggregates NPCs for mass killing compilation - full version,POL-VIOL,Violence,RED,Manufactured shocking gameplay
+CNT-0300,Viewer requested: Rap music video titled 'That Sh*t Hits Different',POL-LANG,Inappropriate Language,YELLOW,Profanity in music title
+CNT-0325,Trending: Public debate about immigration policy without hateful rhetoric #trending,POL-HATE,Hateful & Derogatory Content,GREEN,Public debate protected groups
+CNT-0320,Part 2: Video focused entirely on publicly shaming a specific person,POL-INCEND,Incendiary & Demeaning,YELLOW,Shaming individual
+CNT-0141,Influencer promoting herbal cigarettes as a healthy alternative,POL-TOBAC,Tobacco-Related Content,YELLOW,Herbal cigarettes promotion
+CNT-0065,New upload: Review comparing different vaping juice flavors and nicotine levels,POL-HARM,Harmful Acts & Unreliable Content,YELLOW,Tobacco product reviews
+CNT-0034,Part 2: Romantic comedy scene with characters kissing passionately,POL-ADULT,Adult Content,GREEN,Romance or kissing
+CNT-0076,Documentary with unbleeped racial slurs for educational impact,POL-HATE,Hateful & Derogatory Content,YELLOW,Unobscured slurs educational
+CNT-0312,Viewer requested: Discussion video about proposed gun control legislation - viewer discretion advised,POL-FIRE,Firearms,GREEN,Gun legislation discussion
+CNT-0165,Self-defense tutorial demonstrating basic blocking techniques | unedited,POL-VIOL,Violence,GREEN,Fights educational context
+CNT-0042,New upload: Dance video with deliberate camera zoom on sexual body parts - viewer discretion advised,POL-ADULT,Adult Content,YELLOW,Deliberate focus sexual parts dance
+CNT-0461,Viewer requested: Ice bucket challenge video with friends laughing,POL-HARM,Harmful Acts & Unreliable Content,GREEN,Pranks no risk
+CNT-0038,Full video: Woman breastfeeding her infant in a parenting vlog (2024),POL-ADULT,Adult Content,GREEN,Breastfeeding with child
+CNT-0228,Part 2: Video debunking common health misinformation myths (2024),POL-HARM,Harmful Acts & Unreliable Content,GREEN,Debunking misinformation
+CNT-0466,Viewer requested: Video stating all people of a certain nationality are inferior,POL-HATE,Hateful & Derogatory Content,RED,Disparaging protected group

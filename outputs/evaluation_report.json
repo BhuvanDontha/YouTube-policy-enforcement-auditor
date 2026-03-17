@@ -1,0 +1,254 @@
+{
+  "total_evaluated": 500,
+  "policy_accuracy": 75.8,
+  "severity_accuracy": 68.4,
+  "macro_precision": 0.607,
+  "macro_recall": 0.546,
+  "macro_f1": 0.564,
+  "per_category": {
+    "Adult Content": {
+      "true_positives": 39,
+      "false_positives": 1,
+      "false_negatives": 12,
+      "precision": 0.975,
+      "recall": 0.765,
+      "f1_score": 0.857
+    },
+    "Controversial Issues": {
+      "true_positives": 29,
+      "false_positives": 6,
+      "false_negatives": 17,
+      "precision": 0.829,
+      "recall": 0.63,
+      "f1_score": 0.716
+    },
+    "Enabling Dishonest Behavior": {
+      "true_positives": 25,
+      "false_positives": 1,
+      "false_negatives": 4,
+      "precision": 0.962,
+      "recall": 0.862,
+      "f1_score": 0.909
+    },
+    "Firearms": {
+      "true_positives": 25,
+      "false_positives": 5,
+      "false_negatives": 7,
+      "precision": 0.833,
+      "recall": 0.781,
+      "f1_score": 0.806
+    },
+    "Harmful Acts & Unreliable Content": {
+      "true_positives": 40,
+      "false_positives": 29,
+      "false_negatives": 17,
+      "precision": 0.58,
+      "recall": 0.702,
+      "f1_score": 0.635
+    },
+    "Hateful & Derogatory Content": {
+      "true_positives": 24,
+      "false_positives": 4,
+      "false_negatives": 13,
+      "precision": 0.857,
+      "recall": 0.649,
+      "f1_score": 0.738
+    },
+    "Inappropriate Content for Kids": {
+      "true_positives": 18,
+      "false_positives": 17,
+      "false_negatives": 7,
+      "precision": 0.514,
+      "recall": 0.72,
+      "f1_score": 0.6
+    },
+    "Inappropriate Language": {
+      "true_positives": 45,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "precision": 0.938,
+      "recall": 1.0,
+      "f1_score": 0.968
+    },
+    "Incendiary & Demeaning": {
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 10,
+      "precision": 1.0,
+      "recall": 0.333,
+      "f1_score": 0.5
+    },
+    "No Policy Violation": {
+      "true_positives": 0,
+      "false_positives": 4,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "No policy violation": {
+      "true_positives": 0,
+      "false_positives": 7,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "No violations": {
+      "true_positives": 0,
+      "false_positives": 2,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "None": {
+      "true_positives": 0,
+      "false_positives": 5,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "Recreational Drugs": {
+      "true_positives": 29,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "precision": 1.0,
+      "recall": 0.879,
+      "f1_score": 0.935
+    },
+    "Sensitive Events": {
+      "true_positives": 14,
+      "false_positives": 3,
+      "false_negatives": 4,
+      "precision": 0.824,
+      "recall": 0.778,
+      "f1_score": 0.8
+    },
+    "Shocking Content": {
+      "true_positives": 25,
+      "false_positives": 9,
+      "false_negatives": 12,
+      "precision": 0.735,
+      "recall": 0.676,
+      "f1_score": 0.704
+    },
+    "Tobacco-Related Content": {
+      "true_positives": 13,
+      "false_positives": 4,
+      "false_negatives": 4,
+      "precision": 0.765,
+      "recall": 0.765,
+      "f1_score": 0.765
+    },
+    "Unknown": {
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0
+    },
+    "Violence": {
+      "true_positives": 48,
+      "false_positives": 18,
+      "false_negatives": 10,
+      "precision": 0.727,
+      "recall": 0.828,
+      "f1_score": 0.774
+    }
+  },
+  "confusion_matrix": {
+    "Recreational Drugs": {
+      "Recreational Drugs": 29,
+      "Firearms": 1,
+      "Controversial Issues": 2,
+      "Inappropriate Content for Kids": 1
+    },
+    "Controversial Issues": {
+      "Controversial Issues": 29,
+      "Violence": 4,
+      "Shocking Content": 5,
+      "Harmful Acts & Unreliable Content": 6,
+      "Inappropriate Content for Kids": 1,
+      "Sensitive Events": 1
+    },
+    "Violence": {
+      "Violence": 48,
+      "Inappropriate Content for Kids": 5,
+      "Sensitive Events": 1,
+      "Firearms": 3,
+      "None": 1
+    },
+    "Harmful Acts & Unreliable Content": {
+      "Tobacco-Related Content": 4,
+      "Harmful Acts & Unreliable Content": 40,
+      "Enabling Dishonest Behavior": 1,
+      "None": 3,
+      "Shocking Content": 4,
+      "Inappropriate Content for Kids": 4,
+      "Sensitive Events": 1
+    },
+    "Inappropriate Language": {
+      "Inappropriate Language": 45
+    },
+    "Hateful & Derogatory Content": {
+      "Violence": 3,
+      "Hateful & Derogatory Content": 24,
+      "No policy violation": 2,
+      "Inappropriate Language": 3,
+      "Controversial Issues": 2,
+      "Harmful Acts & Unreliable Content": 1,
+      "Inappropriate Content for Kids": 1,
+      "No Policy Violation": 1
+    },
+    "Incendiary & Demeaning": {
+      "Incendiary & Demeaning": 5,
+      "Harmful Acts & Unreliable Content": 6,
+      "Hateful & Derogatory Content": 4
+    },
+    "Shocking Content": {
+      "Shocking Content": 25,
+      "Violence": 8,
+      "No policy violation": 2,
+      "Unknown": 1,
+      "Inappropriate Content for Kids": 1
+    },
+    "Firearms": {
+      "Controversial Issues": 1,
+      "Harmful Acts & Unreliable Content": 6,
+      "Firearms": 25
+    },
+    "Adult Content": {
+      "Adult Content": 39,
+      "No policy violation": 3,
+      "Controversial Issues": 1,
+      "Unknown": 2,
+      "None": 1,
+      "Inappropriate Content for Kids": 4,
+      "No Policy Violation": 1
+    },
+    "Enabling Dishonest Behavior": {
+      "Enabling Dishonest Behavior": 25,
+      "Harmful Acts & Unreliable Content": 3,
+      "Firearms": 1
+    },
+    "Inappropriate Content for Kids": {
+      "Inappropriate Content for Kids": 18,
+      "No Policy Violation": 2,
+      "No violations": 1,
+      "Harmful Acts & Unreliable Content": 3,
+      "Adult Content": 1
+    },
+    "Tobacco-Related Content": {
+      "Tobacco-Related Content": 13,
+      "Harmful Acts & Unreliable Content": 4
+    },
+    "Sensitive Events": {
+      "Sensitive Events": 14,
+      "Violence": 3,
+      "No violations": 1
+    }
+  }
+}

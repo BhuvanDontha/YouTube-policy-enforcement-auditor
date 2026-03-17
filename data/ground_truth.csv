@@ -1,0 +1,501 @@
+content_id,true_policy_id,true_policy_name,true_severity
+CNT-0441,POL-DRUG,Recreational Drugs,RED
+CNT-0104,POL-CONTROV,Controversial Issues,GREEN
+CNT-0084,POL-DRUG,Recreational Drugs,GREEN
+CNT-0032,POL-VIOL,Violence,RED
+CNT-0487,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0009,POL-LANG,Inappropriate Language,YELLOW
+CNT-0082,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0264,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0003,POL-LANG,Inappropriate Language,GREEN
+CNT-0480,POL-SHOCK,Shocking Content,RED
+CNT-0254,POL-VIOL,Violence,GREEN
+CNT-0230,POL-LANG,Inappropriate Language,RED
+CNT-0490,POL-DRUG,Recreational Drugs,GREEN
+CNT-0345,POL-LANG,Inappropriate Language,YELLOW
+CNT-0459,POL-FIRE,Firearms,GREEN
+CNT-0043,POL-ADULT,Adult Content,RED
+CNT-0092,POL-DRUG,Recreational Drugs,RED
+CNT-0332,POL-VIOL,Violence,GREEN
+CNT-0277,POL-ADULT,Adult Content,YELLOW
+CNT-0108,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0234,POL-LANG,Inappropriate Language,GREEN
+CNT-0103,POL-CONTROV,Controversial Issues,GREEN
+CNT-0303,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0176,POL-SHOCK,Shocking Content,YELLOW
+CNT-0188,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0248,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0197,POL-LANG,Inappropriate Language,RED
+CNT-0435,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0001,POL-LANG,Inappropriate Language,GREEN
+CNT-0172,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0012,POL-LANG,Inappropriate Language,RED
+CNT-0112,POL-CONTROV,Controversial Issues,RED
+CNT-0432,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0183,POL-CONTROV,Controversial Issues,RED
+CNT-0326,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0289,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0417,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0477,POL-DRUG,Recreational Drugs,RED
+CNT-0411,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0002,POL-LANG,Inappropriate Language,GREEN
+CNT-0023,POL-VIOL,Violence,YELLOW
+CNT-0449,POL-ADULT,Adult Content,GREEN
+CNT-0207,POL-CONTROV,Controversial Issues,RED
+CNT-0052,POL-SHOCK,Shocking Content,YELLOW
+CNT-0028,POL-VIOL,Violence,RED
+CNT-0120,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0309,POL-LANG,Inappropriate Language,GREEN
+CNT-0123,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0443,POL-ADULT,Adult Content,GREEN
+CNT-0235,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0200,POL-LANG,Inappropriate Language,YELLOW
+CNT-0335,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0458,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0008,POL-LANG,Inappropriate Language,YELLOW
+CNT-0478,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0144,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0185,POL-ADULT,Adult Content,YELLOW
+CNT-0246,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0072,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0256,POL-LANG,Inappropriate Language,YELLOW
+CNT-0368,POL-KIDS,Inappropriate Content for Kids,GREEN
+CNT-0106,POL-CONTROV,Controversial Issues,GREEN
+CNT-0402,POL-CONTROV,Controversial Issues,GREEN
+CNT-0342,POL-ADULT,Adult Content,RED
+CNT-0007,POL-LANG,Inappropriate Language,YELLOW
+CNT-0139,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0242,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0389,POL-SENSIT,Sensitive Events,RED
+CNT-0164,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0410,POL-ADULT,Adult Content,YELLOW
+CNT-0110,POL-CONTROV,Controversial Issues,RED
+CNT-0282,POL-VIOL,Violence,RED
+CNT-0102,POL-FIRE,Firearms,RED
+CNT-0150,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0060,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0128,POL-KIDS,Inappropriate Content for Kids,GREEN
+CNT-0454,POL-VIOL,Violence,GREEN
+CNT-0471,POL-VIOL,Violence,YELLOW
+CNT-0124,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0061,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0251,POL-ADULT,Adult Content,YELLOW
+CNT-0098,POL-FIRE,Firearms,YELLOW
+CNT-0069,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0030,POL-VIOL,Violence,RED
+CNT-0058,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0414,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0464,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0240,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0428,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0353,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0178,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0302,POL-SHOCK,Shocking Content,RED
+CNT-0006,POL-LANG,Inappropriate Language,YELLOW
+CNT-0388,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0132,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0187,POL-CONTROV,Controversial Issues,RED
+CNT-0231,POL-VIOL,Violence,GREEN
+CNT-0089,POL-DRUG,Recreational Drugs,RED
+CNT-0434,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0483,POL-SHOCK,Shocking Content,YELLOW
+CNT-0499,POL-CONTROV,Controversial Issues,GREEN
+CNT-0399,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0077,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0201,POL-DRUG,Recreational Drugs,GREEN
+CNT-0138,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0413,POL-DRUG,Recreational Drugs,GREEN
+CNT-0351,POL-ADULT,Adult Content,GREEN
+CNT-0470,POL-ADULT,Adult Content,YELLOW
+CNT-0133,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0068,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0275,POL-LANG,Inappropriate Language,RED
+CNT-0107,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0070,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0126,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0216,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0013,POL-LANG,Inappropriate Language,RED
+CNT-0359,POL-VIOL,Violence,YELLOW
+CNT-0136,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0498,POL-LANG,Inappropriate Language,YELLOW
+CNT-0387,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0419,POL-VIOL,Violence,YELLOW
+CNT-0223,POL-DRUG,Recreational Drugs,GREEN
+CNT-0489,POL-DRUG,Recreational Drugs,RED
+CNT-0156,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0422,POL-DRUG,Recreational Drugs,RED
+CNT-0338,POL-CONTROV,Controversial Issues,RED
+CNT-0486,POL-ADULT,Adult Content,GREEN
+CNT-0408,POL-SENSIT,Sensitive Events,RED
+CNT-0278,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0364,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0238,POL-ADULT,Adult Content,GREEN
+CNT-0170,POL-ADULT,Adult Content,YELLOW
+CNT-0005,POL-LANG,Inappropriate Language,GREEN
+CNT-0373,POL-LANG,Inappropriate Language,GREEN
+CNT-0314,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0316,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0202,POL-VIOL,Violence,GREEN
+CNT-0268,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0033,POL-VIOL,Violence,RED
+CNT-0456,POL-FIRE,Firearms,GREEN
+CNT-0097,POL-FIRE,Firearms,YELLOW
+CNT-0329,POL-SHOCK,Shocking Content,GREEN
+CNT-0261,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0492,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0101,POL-FIRE,Firearms,RED
+CNT-0421,POL-DRUG,Recreational Drugs,GREEN
+CNT-0321,POL-SHOCK,Shocking Content,GREEN
+CNT-0299,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0021,POL-VIOL,Violence,GREEN
+CNT-0271,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0184,POL-VIOL,Violence,RED
+CNT-0491,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0497,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0245,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0396,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0025,POL-VIOL,Violence,YELLOW
+CNT-0085,POL-DRUG,Recreational Drugs,GREEN
+CNT-0017,POL-VIOL,Violence,GREEN
+CNT-0086,POL-DRUG,Recreational Drugs,GREEN
+CNT-0386,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0154,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0267,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0318,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0469,POL-FIRE,Firearms,GREEN
+CNT-0367,POL-ADULT,Adult Content,YELLOW
+CNT-0096,POL-FIRE,Firearms,GREEN
+CNT-0094,POL-FIRE,Firearms,GREEN
+CNT-0328,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0157,POL-SHOCK,Shocking Content,GREEN
+CNT-0134,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0135,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0173,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0276,POL-SHOCK,Shocking Content,YELLOW
+CNT-0064,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0361,POL-LANG,Inappropriate Language,RED
+CNT-0253,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0363,POL-ADULT,Adult Content,RED
+CNT-0199,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0297,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0500,POL-VIOL,Violence,RED
+CNT-0350,POL-ADULT,Adult Content,YELLOW
+CNT-0445,POL-CONTROV,Controversial Issues,RED
+CNT-0485,POL-ADULT,Adult Content,GREEN
+CNT-0225,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0129,POL-KIDS,Inappropriate Content for Kids,GREEN
+CNT-0122,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0252,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0229,POL-SHOCK,Shocking Content,GREEN
+CNT-0451,POL-ADULT,Adult Content,RED
+CNT-0284,POL-SHOCK,Shocking Content,GREEN
+CNT-0147,POL-FIRE,Firearms,YELLOW
+CNT-0209,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0400,POL-DRUG,Recreational Drugs,GREEN
+CNT-0383,POL-VIOL,Violence,YELLOW
+CNT-0142,POL-LANG,Inappropriate Language,RED
+CNT-0237,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0210,POL-SHOCK,Shocking Content,GREEN
+CNT-0099,POL-FIRE,Firearms,RED
+CNT-0431,POL-SENSIT,Sensitive Events,GREEN
+CNT-0153,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0366,POL-DRUG,Recreational Drugs,GREEN
+CNT-0324,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0166,POL-VIOL,Violence,YELLOW
+CNT-0404,POL-ADULT,Adult Content,YELLOW
+CNT-0372,POL-CONTROV,Controversial Issues,GREEN
+CNT-0095,POL-FIRE,Firearms,GREEN
+CNT-0378,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0295,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0467,POL-VIOL,Violence,YELLOW
+CNT-0241,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0349,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0019,POL-VIOL,Violence,GREEN
+CNT-0130,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0091,POL-DRUG,Recreational Drugs,RED
+CNT-0381,POL-ADULT,Adult Content,YELLOW
+CNT-0152,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0390,POL-FIRE,Firearms,RED
+CNT-0298,POL-SENSIT,Sensitive Events,RED
+CNT-0078,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0162,POL-SHOCK,Shocking Content,YELLOW
+CNT-0274,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0258,POL-FIRE,Firearms,RED
+CNT-0018,POL-VIOL,Violence,GREEN
+CNT-0323,POL-LANG,Inappropriate Language,GREEN
+CNT-0039,POL-ADULT,Adult Content,YELLOW
+CNT-0348,POL-SHOCK,Shocking Content,GREEN
+CNT-0442,POL-SHOCK,Shocking Content,GREEN
+CNT-0436,POL-FIRE,Firearms,YELLOW
+CNT-0083,POL-DRUG,Recreational Drugs,GREEN
+CNT-0355,POL-CONTROV,Controversial Issues,GREEN
+CNT-0163,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0495,POL-VIOL,Violence,RED
+CNT-0239,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0226,POL-VIOL,Violence,YELLOW
+CNT-0358,POL-DRUG,Recreational Drugs,GREEN
+CNT-0403,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0392,POL-VIOL,Violence,GREEN
+CNT-0340,POL-SHOCK,Shocking Content,YELLOW
+CNT-0145,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0194,POL-DRUG,Recreational Drugs,GREEN
+CNT-0119,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0127,POL-KIDS,Inappropriate Content for Kids,GREEN
+CNT-0292,POL-SENSIT,Sensitive Events,RED
+CNT-0198,POL-SHOCK,Shocking Content,YELLOW
+CNT-0244,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0280,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0020,POL-VIOL,Violence,GREEN
+CNT-0418,POL-VIOL,Violence,YELLOW
+CNT-0327,POL-LANG,Inappropriate Language,GREEN
+CNT-0305,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0266,POL-CONTROV,Controversial Issues,RED
+CNT-0347,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0045,POL-ADULT,Adult Content,RED
+CNT-0475,POL-FIRE,Firearms,GREEN
+CNT-0066,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0075,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0053,POL-SHOCK,Shocking Content,YELLOW
+CNT-0121,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0493,POL-VIOL,Violence,GREEN
+CNT-0375,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0179,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0100,POL-FIRE,Firearms,RED
+CNT-0265,POL-LANG,Inappropriate Language,YELLOW
+CNT-0427,POL-ADULT,Adult Content,GREEN
+CNT-0262,POL-DRUG,Recreational Drugs,YELLOW
+CNT-0293,POL-ADULT,Adult Content,RED
+CNT-0087,POL-DRUG,Recreational Drugs,YELLOW
+CNT-0171,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0114,POL-SENSIT,Sensitive Events,GREEN
+CNT-0376,POL-KIDS,Inappropriate Content for Kids,GREEN
+CNT-0377,POL-VIOL,Violence,GREEN
+CNT-0322,POL-FIRE,Firearms,GREEN
+CNT-0041,POL-ADULT,Adult Content,YELLOW
+CNT-0269,POL-SHOCK,Shocking Content,RED
+CNT-0369,POL-CONTROV,Controversial Issues,GREEN
+CNT-0279,POL-SHOCK,Shocking Content,RED
+CNT-0125,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0055,POL-SHOCK,Shocking Content,RED
+CNT-0409,POL-ADULT,Adult Content,GREEN
+CNT-0046,POL-ADULT,Adult Content,RED
+CNT-0186,POL-FIRE,Firearms,GREEN
+CNT-0395,POL-LANG,Inappropriate Language,GREEN
+CNT-0088,POL-DRUG,Recreational Drugs,YELLOW
+CNT-0354,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0011,POL-LANG,Inappropriate Language,RED
+CNT-0371,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0333,POL-ADULT,Adult Content,YELLOW
+CNT-0313,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0214,POL-DRUG,Recreational Drugs,GREEN
+CNT-0208,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0393,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0448,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0040,POL-ADULT,Adult Content,YELLOW
+CNT-0236,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0010,POL-LANG,Inappropriate Language,RED
+CNT-0224,POL-SENSIT,Sensitive Events,GREEN
+CNT-0022,POL-VIOL,Violence,YELLOW
+CNT-0204,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0037,POL-ADULT,Adult Content,GREEN
+CNT-0420,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0287,POL-LANG,Inappropriate Language,RED
+CNT-0257,POL-LANG,Inappropriate Language,GREEN
+CNT-0118,POL-SENSIT,Sensitive Events,RED
+CNT-0273,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0195,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0430,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0090,POL-DRUG,Recreational Drugs,RED
+CNT-0331,POL-VIOL,Violence,GREEN
+CNT-0255,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0397,POL-ADULT,Adult Content,YELLOW
+CNT-0062,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0168,POL-ADULT,Adult Content,GREEN
+CNT-0149,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0446,POL-FIRE,Firearms,GREEN
+CNT-0071,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0474,POL-SENSIT,Sensitive Events,GREEN
+CNT-0155,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0105,POL-CONTROV,Controversial Issues,GREEN
+CNT-0452,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0029,POL-VIOL,Violence,RED
+CNT-0307,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0203,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0113,POL-CONTROV,Controversial Issues,RED
+CNT-0024,POL-VIOL,Violence,YELLOW
+CNT-0158,POL-VIOL,Violence,GREEN
+CNT-0270,POL-DRUG,Recreational Drugs,YELLOW
+CNT-0250,POL-ADULT,Adult Content,YELLOW
+CNT-0304,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0146,POL-CONTROV,Controversial Issues,GREEN
+CNT-0057,POL-SHOCK,Shocking Content,RED
+CNT-0462,POL-DRUG,Recreational Drugs,GREEN
+CNT-0177,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0398,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0263,POL-ADULT,Adult Content,RED
+CNT-0362,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0423,POL-ADULT,Adult Content,GREEN
+CNT-0453,POL-DRUG,Recreational Drugs,YELLOW
+CNT-0343,POL-ADULT,Adult Content,YELLOW
+CNT-0311,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0249,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0218,POL-VIOL,Violence,RED
+CNT-0339,POL-VIOL,Violence,GREEN
+CNT-0227,POL-DRUG,Recreational Drugs,GREEN
+CNT-0433,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0496,POL-SHOCK,Shocking Content,RED
+CNT-0026,POL-VIOL,Violence,YELLOW
+CNT-0317,POL-SHOCK,Shocking Content,GREEN
+CNT-0357,POL-VIOL,Violence,GREEN
+CNT-0406,POL-DRUG,Recreational Drugs,GREEN
+CNT-0415,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0438,POL-FIRE,Firearms,RED
+CNT-0482,POL-SHOCK,Shocking Content,YELLOW
+CNT-0291,POL-CONTROV,Controversial Issues,RED
+CNT-0484,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0412,POL-FIRE,Firearms,RED
+CNT-0190,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0081,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0175,POL-ADULT,Adult Content,YELLOW
+CNT-0460,POL-FIRE,Firearms,YELLOW
+CNT-0215,POL-VIOL,Violence,RED
+CNT-0193,POL-LANG,Inappropriate Language,YELLOW
+CNT-0463,POL-VIOL,Violence,GREEN
+CNT-0481,POL-DRUG,Recreational Drugs,GREEN
+CNT-0440,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0016,POL-VIOL,Violence,GREEN
+CNT-0488,POL-LANG,Inappropriate Language,YELLOW
+CNT-0073,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0036,POL-ADULT,Adult Content,GREEN
+CNT-0206,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0384,POL-VIOL,Violence,RED
+CNT-0290,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0074,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0380,POL-LANG,Inappropriate Language,YELLOW
+CNT-0004,POL-LANG,Inappropriate Language,GREEN
+CNT-0401,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0457,POL-FIRE,Firearms,RED
+CNT-0159,POL-VIOL,Violence,RED
+CNT-0473,POL-FIRE,Firearms,GREEN
+CNT-0140,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0093,POL-FIRE,Firearms,GREEN
+CNT-0015,POL-VIOL,Violence,GREEN
+CNT-0137,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0356,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0405,POL-VIOL,Violence,RED
+CNT-0494,POL-FIRE,Firearms,GREEN
+CNT-0014,POL-VIOL,Violence,GREEN
+CNT-0286,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0330,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0346,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0315,POL-SENSIT,Sensitive Events,RED
+CNT-0319,POL-SHOCK,Shocking Content,RED
+CNT-0425,POL-ADULT,Adult Content,RED
+CNT-0220,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0116,POL-SENSIT,Sensitive Events,RED
+CNT-0294,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0143,POL-LANG,Inappropriate Language,GREEN
+CNT-0391,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0472,POL-CONTROV,Controversial Issues,GREEN
+CNT-0189,POL-LANG,Inappropriate Language,RED
+CNT-0429,POL-LANG,Inappropriate Language,GREEN
+CNT-0180,POL-LANG,Inappropriate Language,GREEN
+CNT-0056,POL-SHOCK,Shocking Content,RED
+CNT-0115,POL-SENSIT,Sensitive Events,GREEN
+CNT-0247,POL-VIOL,Violence,GREEN
+CNT-0337,POL-SENSIT,Sensitive Events,GREEN
+CNT-0080,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0109,POL-CONTROV,Controversial Issues,YELLOW
+CNT-0260,POL-SHOCK,Shocking Content,RED
+CNT-0296,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0054,POL-SHOCK,Shocking Content,YELLOW
+CNT-0181,POL-ADULT,Adult Content,GREEN
+CNT-0160,POL-LANG,Inappropriate Language,RED
+CNT-0308,POL-DISHON,Enabling Dishonest Behavior,RED
+CNT-0148,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0027,POL-VIOL,Violence,YELLOW
+CNT-0465,POL-ADULT,Adult Content,GREEN
+CNT-0217,POL-CONTROV,Controversial Issues,GREEN
+CNT-0385,POL-ADULT,Adult Content,YELLOW
+CNT-0447,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0182,POL-SENSIT,Sensitive Events,GREEN
+CNT-0211,POL-CONTROV,Controversial Issues,RED
+CNT-0063,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0344,POL-SENSIT,Sensitive Events,RED
+CNT-0169,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0439,POL-LANG,Inappropriate Language,RED
+CNT-0288,POL-CONTROV,Controversial Issues,RED
+CNT-0301,POL-DRUG,Recreational Drugs,GREEN
+CNT-0031,POL-VIOL,Violence,RED
+CNT-0285,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0067,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0416,POL-VIOL,Violence,GREEN
+CNT-0191,POL-CONTROV,Controversial Issues,GREEN
+CNT-0379,POL-CONTROV,Controversial Issues,RED
+CNT-0382,POL-LANG,Inappropriate Language,GREEN
+CNT-0050,POL-SHOCK,Shocking Content,GREEN
+CNT-0222,POL-SHOCK,Shocking Content,YELLOW
+CNT-0048,POL-SHOCK,Shocking Content,GREEN
+CNT-0044,POL-ADULT,Adult Content,RED
+CNT-0426,POL-FIRE,Firearms,YELLOW
+CNT-0047,POL-ADULT,Adult Content,RED
+CNT-0035,POL-ADULT,Adult Content,GREEN
+CNT-0243,POL-DISHON,Enabling Dishonest Behavior,GREEN
+CNT-0352,POL-ADULT,Adult Content,RED
+CNT-0079,POL-HATE,Hateful & Derogatory Content,RED
+CNT-0192,POL-ADULT,Adult Content,YELLOW
+CNT-0131,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0341,POL-VIOL,Violence,GREEN
+CNT-0468,POL-ADULT,Adult Content,GREEN
+CNT-0219,POL-FIRE,Firearms,YELLOW
+CNT-0161,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0049,POL-SHOCK,Shocking Content,GREEN
+CNT-0374,POL-CONTROV,Controversial Issues,GREEN
+CNT-0213,POL-CONTROV,Controversial Issues,RED
+CNT-0205,POL-VIOL,Violence,RED
+CNT-0479,POL-SENSIT,Sensitive Events,RED
+CNT-0424,POL-CONTROV,Controversial Issues,GREEN
+CNT-0174,POL-HARM,Harmful Acts & Unreliable Content,RED
+CNT-0212,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0117,POL-SENSIT,Sensitive Events,RED
+CNT-0455,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0232,POL-SHOCK,Shocking Content,GREEN
+CNT-0476,POL-FIRE,Firearms,GREEN
+CNT-0111,POL-CONTROV,Controversial Issues,RED
+CNT-0444,POL-LANG,Inappropriate Language,RED
+CNT-0370,POL-SENSIT,Sensitive Events,RED
+CNT-0283,POL-FIRE,Firearms,YELLOW
+CNT-0394,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0450,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0334,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0336,POL-KIDS,Inappropriate Content for Kids,RED
+CNT-0437,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0059,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0360,POL-LANG,Inappropriate Language,YELLOW
+CNT-0407,POL-CONTROV,Controversial Issues,RED
+CNT-0051,POL-SHOCK,Shocking Content,GREEN
+CNT-0221,POL-LANG,Inappropriate Language,GREEN
+CNT-0310,POL-SHOCK,Shocking Content,RED
+CNT-0259,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0233,POL-CONTROV,Controversial Issues,GREEN
+CNT-0151,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0272,POL-VIOL,Violence,GREEN
+CNT-0306,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0196,POL-VIOL,Violence,RED
+CNT-0167,POL-SHOCK,Shocking Content,RED
+CNT-0365,POL-DRUG,Recreational Drugs,RED
+CNT-0281,POL-VIOL,Violence,RED
+CNT-0300,POL-LANG,Inappropriate Language,YELLOW
+CNT-0325,POL-HATE,Hateful & Derogatory Content,GREEN
+CNT-0320,POL-INCEND,Incendiary & Demeaning,YELLOW
+CNT-0141,POL-TOBAC,Tobacco-Related Content,YELLOW
+CNT-0065,POL-HARM,Harmful Acts & Unreliable Content,YELLOW
+CNT-0034,POL-ADULT,Adult Content,GREEN
+CNT-0076,POL-HATE,Hateful & Derogatory Content,YELLOW
+CNT-0312,POL-FIRE,Firearms,GREEN
+CNT-0165,POL-VIOL,Violence,GREEN
+CNT-0042,POL-ADULT,Adult Content,YELLOW
+CNT-0461,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0038,POL-ADULT,Adult Content,GREEN
+CNT-0228,POL-HARM,Harmful Acts & Unreliable Content,GREEN
+CNT-0466,POL-HATE,Hateful & Derogatory Content,RED

@@ -1,0 +1,34 @@
+============================================================
+CLASSIFIER EVALUATION REPORT
+============================================================
+Total evaluated: 500
+Policy accuracy: 75.8%
+Severity accuracy: 68.4%
+Macro Precision: 0.607
+Macro Recall: 0.546
+Macro F1: 0.564
+
+------------------------------------------------------------
+PER-CATEGORY METRICS
+------------------------------------------------------------
+Category                         Prec    Rec     F1   TP   FP   FN
+------------------------------------------------------------
+Adult Content                   0.975  0.765  0.857   39    1   12
+Controversial Issues            0.829  0.630  0.716   29    6   17
+Enabling Dishonest Behavior     0.962  0.862  0.909   25    1    4
+Firearms                        0.833  0.781  0.806   25    5    7
+Harmful Acts & Unreliable Content  0.580  0.702  0.635   40   29   17
+Hateful & Derogatory Content    0.857  0.649  0.738   24    4   13
+Inappropriate Content for Kids  0.514  0.720  0.600   18   17    7
+Inappropriate Language          0.938  1.000  0.968   45    3    0
+Incendiary & Demeaning          1.000  0.333  0.500    5    0   10
+No Policy Violation             0.000  0.000  0.000    0    4    0
+No policy violation             0.000  0.000  0.000    0    7    0
+No violations                   0.000  0.000  0.000    0    2    0
+None                            0.000  0.000  0.000    0    5    0
+Recreational Drugs              1.000  0.879  0.935   29    0    4
+Sensitive Events                0.824  0.778  0.800   14    3    4
+Shocking Content                0.735  0.676  0.704   25    9   12
+Tobacco-Related Content         0.765  0.765  0.765   13    4    4
+Unknown                         0.000  0.000  0.000    0    3    0
+Violence                        0.727  0.828  0.774   48   18   10

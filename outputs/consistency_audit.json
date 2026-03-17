@@ -1,0 +1,165 @@
+{
+  "total_pairs": 100,
+  "policy_consistency_rate": 85.0,
+  "severity_consistency_rate": 84.0,
+  "full_consistency_rate": 84.0,
+  "per_policy": {
+    "Controversial Issues": {
+      "total_pairs": 45,
+      "consistent_pairs": 36,
+      "consistency_rate": 80.0
+    },
+    "Recreational Drugs": {
+      "total_pairs": 45,
+      "consistent_pairs": 45,
+      "consistency_rate": 100.0
+    },
+    "Violence": {
+      "total_pairs": 10,
+      "consistent_pairs": 3,
+      "consistency_rate": 30.0
+    }
+  },
+  "inconsistent_examples": [
+    {
+      "content_id_a": "CNT-0104",
+      "content_id_b": "CNT-0103",
+      "description_a": "Extended cut: News segment covering abortion legislation cha",
+      "description_b": "PSA video about suicide prevention hotline and mental health",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "None",
+      "predicted_policy_b": "Controversial Issues",
+      "predicted_severity_a": "N/A",
+      "predicted_severity_b": "GREEN",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0108",
+      "content_id_b": "CNT-0103",
+      "description_a": "Full video: Personal recovery story from someone who overcam",
+      "description_b": "PSA video about suicide prevention hotline and mental health",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "None",
+      "predicted_policy_b": "Controversial Issues",
+      "predicted_severity_a": "N/A",
+      "predicted_severity_b": "GREEN",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0112",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Full video: First person account describing child abuse in g",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0183",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Video titled 'how to end your life with dignity' with instru",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0207",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Full video: First person account describing child abuse in g",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0235",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Reupload of Thumbnail showing graphic image of self-harm sca",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0335",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Reupload of Documentary showing a child being verbally abuse",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0106",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Reupload of Brief mention 'next week we discuss declining su",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0103",
+      "content_id_b": "CNT-0402",
+      "description_a": "PSA video about suicide prevention hotline and mental health",
+      "description_b": "Brief mention 'next week we discuss declining suicide rates'",
+      "true_policy": "Controversial Issues",
+      "predicted_policy_a": "Controversial Issues",
+      "predicted_policy_b": "None",
+      "predicted_severity_a": "GREEN",
+      "predicted_severity_b": "N/A",
+      "policy_consistent": false,
+      "severity_consistent": false,
+      "fully_consistent": false
+    },
+    {
+      "content_id_a": "CNT-0032",
+      "content_id_b": "CNT-0254",
+      "description_a": "New upload: Content depicting graphic torture of a restraine",
+      "description_b": "Reupload of Action movie clip showing character getting punc",
+      "true_policy": "Violence",
+      "predicted_policy_a": "Violence",
+      "predicted_policy_b": "Violence",
+      "predicted_severity_a": "RED",
+      "predicted_severity_b": "GREEN",
+      "policy_consistent": true,
+      "severity_consistent": false,
+      "fully_consistent": false
+    }
+  ]
+}

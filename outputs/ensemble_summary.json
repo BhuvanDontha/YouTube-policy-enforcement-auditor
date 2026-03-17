@@ -1,0 +1,110 @@
+{
+  "total_descriptions": 500,
+  "total_disagreements": 389,
+  "disagreement_rate": 77.8,
+  "type_breakdown": {
+    "LLM finds violation, rules miss it": 367,
+    "Both classifiers agree": 111,
+    "Same policy, different severity tier": 8,
+    "Different policies detected entirely": 11,
+    "Rules find violation, LLM misses it": 3
+  },
+  "policy_disagreement_counts": {
+    "Harmful Acts & Unreliable Content": 69,
+    "Violence": 58,
+    "Shocking Content": 34,
+    "Inappropriate Language": 33,
+    "Controversial Issues": 30,
+    "Inappropriate Content for Kids": 30,
+    "Recreational Drugs": 29,
+    "Adult Content": 26,
+    "Hateful & Derogatory Content": 26,
+    "Firearms": 25,
+    "Enabling Dishonest Behavior": 18,
+    "Sensitive Events": 17,
+    "Tobacco-Related Content": 10,
+    "Incendiary & Demeaning": 3
+  },
+  "top_priority_cases": [
+    {
+      "content_id": "CNT-0242",
+      "description": "Viewer requested: Influencer promoting herbal cigarettes as a healthy alternativ",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Harmful Acts & Unreliable Content (RED)",
+      "rules_says": "Tobacco-Related Content (YELLOW)"
+    },
+    {
+      "content_id": "CNT-0378",
+      "description": "Trending: Influencer promoting herbal cigarettes as a healthy alternative - full",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Harmful Acts & Unreliable Content (RED)",
+      "rules_says": "Tobacco-Related Content (YELLOW)"
+    },
+    {
+      "content_id": "CNT-0397",
+      "description": "Viewer requested: Classical art painting showing discernible sexual acts in thum",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Inappropriate Content for Kids (RED)",
+      "rules_says": "Adult Content (RED)"
+    },
+    {
+      "content_id": "CNT-0384",
+      "description": "Viewer requested: Gameplay where player aggregates NPCs for mass killing compila",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Inappropriate Content for Kids (RED)",
+      "rules_says": "Violence (RED)"
+    },
+    {
+      "content_id": "CNT-0437",
+      "description": "Part 2: Documentary with unbleeped racial slurs for educational impact",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Hateful & Derogatory Content (YELLOW)",
+      "rules_says": "Inappropriate Language (RED)"
+    },
+    {
+      "content_id": "CNT-0320",
+      "description": "Part 2: Video focused entirely on publicly shaming a specific person",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Hateful & Derogatory Content (RED)",
+      "rules_says": "Incendiary & Demeaning (YELLOW)"
+    },
+    {
+      "content_id": "CNT-0076",
+      "description": "Documentary with unbleeped racial slurs for educational impact",
+      "type": "Different policies detected entirely",
+      "priority": 3.6,
+      "llm_says": "Hateful & Derogatory Content (YELLOW)",
+      "rules_says": "Inappropriate Language (RED)"
+    },
+    {
+      "content_id": "CNT-0441",
+      "description": "Reupload of Video sharing links to websites where drugs can be purchased online ",
+      "type": "LLM finds violation, rules miss it",
+      "priority": 2.4,
+      "llm_says": "Recreational Drugs (RED)",
+      "rules_says": "None (N/A)"
+    },
+    {
+      "content_id": "CNT-0082",
+      "description": "Part 2: Video inciting viewers to commit violence against disabled people - view",
+      "type": "LLM finds violation, rules miss it",
+      "priority": 2.4,
+      "llm_says": "Violence (RED)",
+      "rules_says": "None (N/A)"
+    },
+    {
+      "content_id": "CNT-0480",
+      "description": "Close-up video of extreme surgical procedure with exposed organs no context",
+      "type": "LLM finds violation, rules miss it",
+      "priority": 2.4,
+      "llm_says": "Shocking Content (RED)",
+      "rules_says": "None (N/A)"
+    }
+  ]
+}

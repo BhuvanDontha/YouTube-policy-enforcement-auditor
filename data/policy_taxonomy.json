@@ -1,0 +1,265 @@
+{
+  "source": "https://support.google.com/youtube/answer/6162278",
+  "version": "2026-03",
+  "categories": [
+    {
+      "policy_id": "POL-LANG",
+      "policy_name": "Inappropriate Language",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Abbreviated or obscured profanity, or words like hell or damn. Moderate profanity like bitch, douchebag, asshole, shit used frequently. Most profanity in music or stand-up comedy.",
+          "keywords": ["damn", "hell", "WTF", "bleeped", "obscured profanity", "comedy profanity", "music profanity", "abbreviated profanity"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Moderate profanity like shit in the title or thumbnail. Focal usage of profanity throughout a video. Profanity in title or thumbnail of music or comedy content.",
+          "keywords": ["shit in title", "focal profanity", "profanity thumbnail", "profanity title"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Stronger profanity like f*ck in thumbnails or titles. Extreme profanity including hateful language or slurs like n-word or f-slur.",
+          "keywords": ["f-word title", "f-word thumbnail", "slur", "n-word", "hateful language", "extreme profanity"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-VIOL",
+      "policy_name": "Violence",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Law enforcement in action, unedited gameplay violence after first 15 seconds, mild violence with minimal blood, non-graphic dead bodies fully obscured or in educational context, dramatized non-graphic violence.",
+          "keywords": ["law enforcement", "gameplay violence", "mild violence", "minimal blood", "dramatized violence", "non-graphic injury", "hunting no graphic", "sports violence"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Dead bodies with obvious injury in educational settings, graphic game violence in thumbnail or early in content, raw footage of armed conflict without injuries, dramatized content with severe shocking injuries.",
+          "keywords": ["dead bodies injury", "graphic game thumbnail", "armed conflict raw", "severe injuries dramatized", "street fights educational", "graphic sports injuries"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Graphic dead bodies in non-educational video, ultra graphic violent acts and injuries, incitement or glorification of violence, graphic torture, violence targeting minors.",
+          "keywords": ["graphic dead bodies", "ultra graphic violence", "glorification violence", "gore", "blood focus", "torture", "execution", "mass killing", "violence minors"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-ADULT",
+      "policy_name": "Adult Content",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Romance or kissing, discussions of relationships without reference to intercourse, fully obscured nudity, breastfeeding with child present, non-graphic sex education, rhythmic dancing not sexually graphic.",
+          "keywords": ["romance", "kissing", "sex education", "breastfeeding", "obscured nudity", "dancing rhythmic", "relationship discussion"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Classical art displaying intercourse in thumbnails, non-arousing sexual education with animated sex acts, pranks with sexual themes, dancing with focus on minimal clothing, deliberate touching of sexual body parts in dance.",
+          "keywords": ["classical art sexual", "sexual education animated", "sexual pranks", "minimal clothing dance", "sexual themes thumbnail"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Exposed or minimally covered sexual body parts, full nudity, sexual acts even if blurred or implied, discussions of fetishes or sexual tips, sex toys or devices, sexually arousing content, erotic dance.",
+          "keywords": ["nudity", "sexual acts", "full nudity", "sex toys", "fetishes", "erotic", "pornography", "sexually explicit", "strip tease", "sexually arousing"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-SHOCK",
+      "policy_name": "Shocking Content",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Light or moderately shocking content that is obscured or shown in educational, documentary context. Medical or cosmetic procedures that are educational. Accidents with no exposed injury.",
+          "keywords": ["medical procedure educational", "cosmetic procedure", "accident no injury", "body parts educational", "animal preparation cooking"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Shocking content with graphic images unobscured but with general context. Surgery scenes with excessive blood in scripted content. High impact accidents. Sensational mukbang with animal parts.",
+          "keywords": ["graphic images context", "surgery blood", "high impact accident", "mukbang animal", "earwax removal", "pimple popping educational"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Highly shocking content where whole purpose is to shock. Disgusting gruesome gory presentations with no context. Extreme injuries. Eating live animals to shock. Brutal animal preparation.",
+          "keywords": ["shock purpose", "gruesome gory", "extreme injuries", "eating live animals", "brutal preparation", "no context gore"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-HARM",
+      "policy_name": "Harmful Acts & Unreliable Content",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Stunts or slightly dangerous acts in professional controlled environment. Fail compilations without graphic injuries. Pranks with confusion but no harm. Neutral content about diseases. Debunking misinformation.",
+          "keywords": ["professional stunts", "extreme sports", "fail compilation", "ice bucket challenge", "neutral disease info", "debunking misinformation"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Content showing physical harm or distress in non-professional environment. High risk activities. Pranks causing extreme emotional distress. Eating non-edible substances. Tobacco product reviews.",
+          "keywords": ["dangerous acts injury", "skyscraper parkour", "emotional distress prank", "eating non-edible", "tobacco review", "vaping comparison"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Content glorifying dangerous acts. Challenges causing critical harm. Pranks involving suicide or terrorism threats. Promoting anti-vaccination. Denying medical conditions. COVID misinformation. Election misinformation.",
+          "keywords": ["glorifying dangerous", "drink bleach challenge", "fire challenge", "anti-vaccination", "medical misinformation", "COVID misinformation", "election misinformation", "climate denial"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-HATE",
+      "policy_name": "Hateful & Derogatory Content",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Content referencing protected groups in non-hateful manner. News reports on discrimination. Comedy condemning hate. Public debates without inciting hatred. Educational content with obscured slurs.",
+          "keywords": ["news discrimination", "comedy condemning hate", "public debate protected groups", "educational slurs obscured", "criticism opinions"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Content that may be offensive but used for education or news. Debate with offensive language for education. Unobscured racial slurs in educational context. Raw footage of shaming without promoting.",
+          "keywords": ["offensive educational", "unobscured slurs educational", "debate offensive language", "shaming footage raw"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Hate or harassment towards individuals or groups. Statements disparaging protected groups. Promoting violence against others. Promoting hate groups or symbols. Malicious personal attacks, slander, defamation.",
+          "keywords": ["hate speech", "harassment", "disparaging protected group", "promoting violence", "hate groups", "hate symbols", "slander", "defamation", "malicious attacks"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-DRUG",
+      "policy_name": "Recreational Drugs",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Educational or humorous references about drugs. Drug addiction recovery stories. Music videos with fleeting drug depiction. Gaming content with drug deals. Documentary on drug trafficking.",
+          "keywords": ["drug education", "addiction recovery", "music drugs fleeting", "gaming drug deals", "documentary drug trafficking"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Non-educational content focusing on illegal drug consumption or creation without promoting. Dramatized content showing drug injection. DTO public service announcements.",
+          "keywords": ["drug consumption dramatized", "injection scene scripted", "DTO educational", "drug creation non-educational"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Content promoting or glorifying drug usage. Instructions on buying making selling drugs. Drug reviews. Cannabis farming tips. Promoting drug trafficking organizations.",
+          "keywords": ["promoting drugs", "drug reviews", "how to buy drugs", "cannabis farming", "drug trafficking glorification", "dispensary tours", "selling drugs"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-FIRE",
+      "policy_name": "Firearms",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Non or semi-automatic unmodified guns in safe environment like shooting range. Firearm assembly for repair or maintenance. Responsible use of airsoft. Gun legislation discussions. Gun reviews.",
+          "keywords": ["shooting range", "gun review", "firearm maintenance", "airsoft", "gun legislation", "prop guns"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Use of guns outside controlled environment. Airsoft or BB guns against others without protective gear.",
+          "keywords": ["guns uncontrolled environment", "guns public street", "BB guns no protection"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Gun creation or modification instructions. Promoting gun sellers. Facilitating gun sales. Guns with bump stocks, automatic weapons, 3D printed guns. Minors using guns without supervision.",
+          "keywords": ["gun creation", "gun modification", "bump stocks", "automatic weapons", "3D printed guns", "gun sales", "minors guns unsupervised", "gun manufacturing"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-CONTROV",
+      "policy_name": "Controversial Issues",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Content related to preventing controversial issues. Fleeting non-graphic references. Non-graphic news coverage. Non-graphic abortion content including personal accounts. Dramatized depictions of controversial issues.",
+          "keywords": ["preventing self-harm", "suicide prevention", "non-graphic abortion", "domestic abuse awareness", "dramatized controversial"]
+        },
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Artistic, educational, documentary representation of controversial issues. Non-graphic child abuse content. Eating disorder recovery stories. Graphic thumbnails of controversial issues.",
+          "keywords": ["child abuse non-graphic", "eating disorder recovery", "controversial thumbnail graphic", "documentary controversial"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Graphic depictions of controversial issues. Descriptive child abuse content. Promotion of self-harm or suicide. Graphic self-harm with visible injuries. Eating disorders with triggering content.",
+          "keywords": ["graphic self-harm", "promote suicide", "graphic child abuse", "eating disorder triggering", "how to kill yourself", "cutting visible blood"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-SENSIT",
+      "policy_name": "Sensitive Events",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Discussions involving loss of life or tragedy that are not exploitative or dismissive. News reporting, documentary content, or discussions about sensitive events.",
+          "keywords": ["tragedy discussion", "news reporting sensitive", "documentary sensitive event", "respectful coverage"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Content profiting from or exploiting sensitive events. Using sensitive event keywords to drive traffic. Selling products exploiting tragedies.",
+          "keywords": ["exploiting tragedy", "profiting sensitive event", "clickbait tragedy", "selling products tragedy"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-DISHON",
+      "policy_name": "Enabling Dishonest Behavior",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Educational, humorous, or music-related references on dishonest behavior. Exploring abandoned buildings with permission. Penetration testing, bug bounties. Documentaries about crime.",
+          "keywords": ["urban exploration permitted", "ethical hacking", "bug bounty", "crime documentary", "lifehacks", "game cheats"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Content teaching unauthorized access. Trespassing promotion. Hacking to track or monitor people. Academic essay writing services. Fake ID creation. Drug test circumvention.",
+          "keywords": ["hacking tutorial malicious", "trespassing promotion", "tracking without consent", "essay writing service", "fake ID", "drug test cheat", "wiretap tutorial"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-KIDS",
+      "policy_name": "Inappropriate Content for Kids",
+      "tiers": {
+        "GREEN": {
+          "label": "Ads eligible",
+          "description": "Content encouraging positive behavior for kids. Educational content on negative behavior. PSAs. Healthy eating habits. Safe DIY and pranks with low risk.",
+          "keywords": ["kids educational", "PSA bullying", "healthy eating kids", "safe DIY kids", "sports fitness kids"]
+        },
+        "RED": {
+          "label": "No ads",
+          "description": "Content promoting negative behavior for kids including cheating and bullying. Realistic guns in kids content. Binge eating challenges. Body image manipulation. Adult themes disguised as kids content. Horror characters targeting kids.",
+          "keywords": ["kids bullying", "kids cheating", "guns kids content", "binge eating kids", "body image kids", "adult themes kids", "horror kids", "momo", "kidnapping kids"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-INCEND",
+      "policy_name": "Incendiary & Demeaning",
+      "tiers": {
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Content that is gratuitously incendiary, inflammatory, or demeaning. Focus on shaming or insulting an individual or group. Content that harasses, intimidates, or bullies.",
+          "keywords": ["shaming", "insulting", "harassment", "intimidation", "bullying", "tragic event denial", "crisis actors claim", "malicious personal attacks"]
+        }
+      }
+    },
+    {
+      "policy_id": "POL-TOBAC",
+      "policy_name": "Tobacco-Related Content",
+      "tiers": {
+        "YELLOW": {
+          "label": "Limited or no ads",
+          "description": "Content promoting tobacco and tobacco-related products. Cigarettes, cigars, chewing tobacco, tobacco pipes, rolling papers, vape pens, e-cigarettes, herbal cigarettes.",
+          "keywords": ["promoting tobacco", "cigarettes", "cigars", "vape pens", "e-cigarettes", "chewing tobacco", "tobacco pipes", "rolling papers"]
+        }
+      }
+    }
+  ]
+}
