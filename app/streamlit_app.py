@@ -28,6 +28,14 @@ try:
 except Exception:
     pass
 
+# Try to import YouTube transcript fetcher
+YT_AVAILABLE = False
+try:
+    from data.youtube_transcript import get_transcript, summarize_for_classification
+    YT_AVAILABLE = True
+except Exception:
+    pass
+
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 
@@ -41,19 +49,19 @@ st.set_page_config(
 st.title("\U0001F6E1 Policy Enforcement Auditor")
 st.caption("AI-Powered Content Policy Classification & Enforcement Consistency Analysis")
 
-# ================= Password Gate =====================
-if "authenticated" not in st.session_state:
-    st.session_state.authenticated = False
-
-if not st.session_state.authenticated:
-    st.title("🛡 Policy Enforcement Auditor")
-    password = st.text_input("Enter access code to continue", type="password")
-    if password == st.secrets.get("APP_PASSWORD", ""):
-        st.session_state.authenticated = True
-        st.rerun()
-    elif password:
-        st.error("Incorrect access code.")
-    st.stop()
+# ==================== PASSWORD GATE ====================
+app_password = os.environ.get("APP_PASSWORD", "")
+if app_password:
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+    if not st.session_state.authenticated:
+        password = st.text_input("Enter access code to continue", type="password")
+        if password == app_password:
+            st.session_state.authenticated = True
+            st.rerun()
+        elif password:
+            st.error("Incorrect access code.")
+        st.stop()
 
 # ==================== SIDEBAR ====================
 view = st.sidebar.radio(
@@ -73,15 +81,55 @@ st.sidebar.markdown("Built by **Bhuvan Dontha**")
 if view == "\U0001F50D Live Classifier":
     st.header("Live Content Classifier")
     st.markdown(
-        "Enter a content description below. The system classifies it using both "
-        "an LLM and a rules-based baseline, then highlights disagreements."
+        "Enter a content description or paste a YouTube URL to auto-extract the transcript. "
+        "The system classifies it using both an LLM and a rules-based baseline, then highlights divergence."
     )
 
-    user_input = st.text_area(
-        "Content Description",
-        placeholder="e.g., Gaming video with graphic beheading scene in the first 10 seconds",
-        height=100,
-    )
+    # Input mode selection
+    input_mode = st.radio("Input method", ["Text description", "YouTube URL"], horizontal=True)
+
+    user_input = ""
+
+    if input_mode == "YouTube URL":
+        if not YT_AVAILABLE:
+            st.warning("youtube-transcript-api not installed. Run: `pip install youtube-transcript-api`")
+        else:
+            yt_url = st.text_input(
+                "YouTube Video URL",
+                placeholder="https://www.youtube.com/watch?v=...",
+            )
+            if yt_url:
+                with st.spinner("Fetching transcript from YouTube..."):
+                    result = get_transcript(yt_url, max_chars=5000)
+                if "error" in result:
+                    st.error(f"Could not fetch transcript: {result['error']}")
+                else:
+                    st.success(
+                        f"Transcript fetched — "
+                        f"{result['char_count']} chars, "
+                        f"{result['duration_minutes']} min"
+                        f"{' (truncated)' if result['truncated'] else ''}"
+                    )
+                    with st.expander("View raw transcript"):
+                        st.text(result["full_text"][:2000])
+
+                    # Summarize with Gemini before classifying
+                    if LLM_AVAILABLE:
+                        with st.spinner("Summarizing transcript with Gemini for classification..."):
+                            try:
+                                user_input = summarize_for_classification(result["full_text"])
+                                st.info(f"**Content summary:** {user_input}")
+                            except Exception as e:
+                                st.warning(f"Summarization failed ({e}). Using raw transcript.")
+                                user_input = result["full_text"][:1000]
+                    else:
+                        user_input = result["full_text"][:1000]
+    else:
+        user_input = st.text_area(
+            "Content Description",
+            placeholder="e.g., Gaming video with graphic beheading scene in the first 10 seconds",
+            height=100,
+        )
 
     if st.button("Classify", type="primary") and user_input:
         col1, col2 = st.columns(2)
