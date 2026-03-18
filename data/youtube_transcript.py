@@ -8,6 +8,8 @@ Author: Bhuvan Dontha
 import re
 import os
 from typing import Optional, Dict
+from langdetect import detect
+from deep_translator import GoogleTranslator
 
 try:
     from youtube_transcript_api import YouTubeTranscriptApi
@@ -25,55 +27,141 @@ except ImportError:
 
 
 def extract_video_id(url: str) -> Optional[str]:
-    """Extract YouTube video ID from various URL formats."""
+    """Extract YouTube video ID from various URL formats robustly."""
     if not url:
         return None
 
     url = url.strip()
 
+    # Direct video ID
     if re.match(r'^[a-zA-Z0-9_-]{11}$', url):
         return url
 
-    patterns = [
-        r'(?:v=|/v/|youtu\.be/|/embed/|/shorts/)([a-zA-Z0-9_-]{11})',
-        r'(?:watch\?.*v=)([a-zA-Z0-9_-]{11})',
-    ]
+    # Handle full URLs with parameters
+    try:
+        from urllib.parse import urlparse, parse_qs
 
-    for pattern in patterns:
-        match = re.search(pattern, url)
-        if match:
-            return match.group(1)
+        parsed = urlparse(url)
 
-    return None
+        # Standard watch URL
+        if parsed.hostname in ["www.youtube.com", "youtube.com"]:
+            query = parse_qs(parsed.query)
+            if "v" in query:
+                return query["v"][0]
+
+        # Short URL
+        if parsed.hostname == "youtu.be":
+            return parsed.path.lstrip("/")
+
+    except Exception:
+        pass
+
+    # Fallback regex
+    match = re.search(r'([a-zA-Z0-9_-]{11})', url)
+    return match.group(1) if match else None
+
+
+def translate_large_text(text: str, chunk_size: int = 1000) -> str:
+    """Robust translation with chunking + error handling."""
+
+    translated_chunks = []
+
+    for i in range(0, len(text), chunk_size):
+        chunk = text[i:i+chunk_size]
+
+        # Skip empty / whitespace chunks
+        if not chunk.strip():
+            continue
+
+        try:
+            translated = GoogleTranslator(
+                source='auto',
+                target='en'
+            ).translate(chunk)
+
+            translated_chunks.append(translated)
+
+        except Exception:
+            # Fallback: keep original chunk (DO NOT break pipeline)
+            translated_chunks.append(chunk)
+
+    return " ".join(translated_chunks)
 
 
 def get_transcript(url_or_id: str, max_chars: int = 100000) -> Dict:
-    """Fetch transcript from a YouTube video.
-
-    Args:
-        url_or_id: YouTube URL or video ID.
-        max_chars: Max characters to return (truncates if longer).
-
-    Returns:
-        Dict with keys: full_text, source, char_count, truncated, video_id, duration_minutes.
-        On failure: Dict with key 'error'.
-    """
     video_id = extract_video_id(url_or_id)
     if not video_id:
         return {"error": f"Could not extract video ID from: {url_or_id}"}
 
     try:
         ytt_api = YouTubeTranscriptApi()
-        transcript = ytt_api.fetch(video_id, languages=['en'])
+
+        # -------------------------
+        # Step 1: List available transcripts
+        # -------------------------
+        available = ytt_api.list(video_id)
+
+        if not available:
+            return {"error": "No transcripts available for this video."}
+
+        # -------------------------
+        # Step 2: Pick best language
+        # Priority:
+        #   1. English if available
+        #   2. Otherwise first available language
+        # -------------------------
+        languages = [t.language_code for t in available]
+
+        if "en" in languages:
+            selected_lang = "en"
+        else:
+            selected_lang = languages[0]
+
+        # -------------------------
+        # Step 3: Fetch transcript using selected language
+        # -------------------------
+        transcript = ytt_api.fetch(video_id, languages=[selected_lang])
 
         segments = []
         total_duration = 0.0
 
         for snippet in transcript:
             segments.append(snippet.text)
-            total_duration = max(total_duration, snippet.start + snippet.duration)
+            total_duration = max(
+                total_duration,
+                snippet.start + snippet.duration
+            )
 
         full_text = " ".join(segments)
+
+        # -------------------------
+        # Step 4: Language Detection
+        # -------------------------
+        try:
+            language = detect(full_text)
+        except:
+            language = selected_lang or "unknown"
+
+        translated = False
+
+        # -------------------------
+        # Step 5: Translate if needed (SAFE + CONTROLLED)
+        # -------------------------
+        if language != "en":
+
+            text_for_translation = full_text[:4000]
+
+            try:
+                translated_text = translate_large_text(text_for_translation)
+
+                # Only update if translation actually changed content
+                if translated_text and translated_text != text_for_translation:
+                    full_text = translated_text
+                    translated = True
+
+            except Exception:
+                # Do NOT fail pipeline if translation fails
+                translated = False
 
         truncated = len(full_text) > max_chars
         if truncated:
@@ -81,15 +169,17 @@ def get_transcript(url_or_id: str, max_chars: int = 100000) -> Dict:
 
         return {
             "full_text": full_text,
-            "source": "auto-captions" if transcript else "manual",
+            "video_id": video_id,
             "char_count": len(full_text),
             "truncated": truncated,
-            "video_id": video_id,
             "duration_minutes": round(total_duration / 60, 1),
+            "original_language": language,
+            "translated_to": "en" if translated else None,
+            "source": f"youtube_detected_{language}",
         }
 
     except Exception as e:
-        return {"error": str(e)}
+        return {"error": f"Could not fetch transcript: {str(e)}"}
 
 
 def summarize_for_classification(
@@ -153,6 +243,9 @@ if __name__ == "__main__":
         print(f"Characters: {result['char_count']}")
         print(f"Truncated: {result['truncated']}")
         print(f"\nFirst 300 chars:\n  {result['full_text'][:300]}...")
+        print(f"Language: {result.get('original_language')}")
+        print(f"Translated: {result.get('translated_to')}")
+        print(f"Source: {result.get('source')}")
 
         if os.getenv("GEMINI_API_KEY") and GENAI_AVAILABLE:
             print(f"\nSummarizing...")
