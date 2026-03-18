@@ -100,7 +100,7 @@ if view == "\U0001F50D Live Classifier":
             )
             if yt_url:
                 with st.spinner("Fetching transcript from YouTube..."):
-                    result = get_transcript(yt_url, max_chars=5000)
+                    result = get_transcript(yt_url, max_chars=100000)
                 if "error" in result:
                     st.error(f"Could not fetch transcript: {result['error']}")
                 else:
@@ -121,9 +121,9 @@ if view == "\U0001F50D Live Classifier":
                                 st.info(f"**Content summary:** {user_input}")
                             except Exception as e:
                                 st.warning(f"Summarization failed ({e}). Using raw transcript.")
-                                user_input = result["full_text"][:1000]
+                                user_input = result["full_text"][:2000]
                     else:
-                        user_input = result["full_text"][:1000]
+                        user_input = result["full_text"][:2000]
     else:
         user_input = st.text_area(
             "Content Description",
