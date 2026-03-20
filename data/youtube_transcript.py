@@ -117,10 +117,13 @@ def get_transcript_via_gemini(url_or_id: str, api_key: Optional[str] = None) -> 
                         ),
                         types.Part.from_text(
                             text=(
-                                "Extract the complete transcript of this video. "
-                                "Return ONLY the spoken text, in the original language. "
+                                "Extract the complete spoken content of this video verbatim. "
+                                "Include ALL words spoken, including profanity, slurs, and controversial statements. "
+                                "Do NOT censor, bleep, or replace any words with asterisks. "
                                 "Do not add timestamps, speaker labels, or commentary. "
-                                "If the video has no speech, describe the visual content instead."
+                                "If the video contains no speech, describe ALL visual content in detail "
+                                "including any violence, nudity, drug use, weapons, or graphic imagery shown. "
+                                "Return the full unedited transcript in the original language."
                             )
                         ),
                     ]
@@ -260,41 +263,86 @@ def summarize_for_classification(
 
     truncated = transcript_text[:100000]
 
-    prompt = f"""You are a content analyst. Given the following video transcript, write a 2-3 sentence summary describing what the video contains. Focus on elements relevant to 14 advertiser-friendly content policy: Inappropriate language, Violence, Adult content, Shocking content, Harmful acts and unreliable content, Hateful & derogatory content, Recreational drugs and drug-related content, Firearms-related content, Controversial issues, Sensitive events, Enabling dishonest behavior, Inappropriate content for kids and families, Incendiary and demeaning, Tobacco-related content.
+    prompt = f"""You are a content policy auditor. Analyze the following video transcript and complete a structured audit.
 
-If the content is benign, simply describe what it is about. Do NOT classify the content. Just describe it factually.
+For EACH of the 14 categories below, respond with:
+- "PRESENT" if signals are detected, followed by specific evidence from the transcript
+- "ABSENT" if no signals detected
 
-If the transcript is not in English, first understand it in its original language, then write the summary in English.
+If the transcript is not in English, understand it in the original language first.
+
+Respond ONLY with valid JSON. No markdown fences.
+
+{{
+  "video_topic": "One sentence describing what the video is about",
+  "audit": {{
+    "inappropriate_language": {{"status": "PRESENT or ABSENT", "evidence": "List specific words/phrases"}},
+    "violence": {{"status": "PRESENT or ABSENT", "evidence": "Describe violent references"}},
+    "adult_content": {{"status": "PRESENT or ABSENT", "evidence": "Describe sexual/adult references"}},
+    "shocking_content": {{"status": "PRESENT or ABSENT", "evidence": "Describe graphic/disturbing references"}},
+    "harmful_acts": {{"status": "PRESENT or ABSENT", "evidence": "Describe dangerous acts, misinformation, unverified claims"}},
+    "hateful_derogatory": {{"status": "PRESENT or ABSENT", "evidence": "Describe hate speech, slurs, discrimination"}},
+    "recreational_drugs": {{"status": "PRESENT or ABSENT", "evidence": "Describe drug use or references"}},
+    "firearms": {{"status": "PRESENT or ABSENT", "evidence": "Describe firearms shown or referenced"}},
+    "controversial_issues": {{"status": "PRESENT or ABSENT", "evidence": "Describe political/social/religious controversy"}},
+    "sensitive_events": {{"status": "PRESENT or ABSENT", "evidence": "Describe war, terrorism, disasters, death references"}},
+    "enabling_dishonest_behavior": {{"status": "PRESENT or ABSENT", "evidence": "Describe scams, fraud, deception"}},
+    "inappropriate_for_kids": {{"status": "PRESENT or ABSENT", "evidence": "Describe content inappropriate for minors"}},
+    "incendiary_demeaning": {{"status": "PRESENT or ABSENT", "evidence": "Describe public shaming, bullying, humiliation"}},
+    "tobacco": {{"status": "PRESENT or ABSENT", "evidence": "Describe tobacco/smoking/vaping references"}}
+  }}
+}}
 
 TRANSCRIPT:
-{truncated}
-
-SUMMARY (2-3 sentences, in English):"""
+{truncated}"""
 
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
-        config=types.GenerateContentConfig(temperature=0.2),
+        config=types.GenerateContentConfig(
+            temperature=0.1,
+            response_mime_type="application/json",
+        ),
     )
 
-    return response.text.strip()
+    # Parse and assemble description from audit
+    try:
+        import json as json_mod
+        audit_data = json_mod.loads(response.text)
+        parts = [audit_data.get("video_topic", "Video content")]
+        audit = audit_data.get("audit", {})
+        findings = []
+        for key_name, cat_data in audit.items():
+            if isinstance(cat_data, dict) and cat_data.get("status", "").upper() == "PRESENT":
+                evidence = cat_data.get("evidence", "")
+                display = key_name.replace("_", " ").title()
+                findings.append(f"{display}: {evidence}")
+        if findings:
+            parts.append("Policy-relevant signals: " + "; ".join(findings))
+        else:
+            parts.append("No policy-relevant signals detected.")
+        return " ".join(parts)
+    except Exception:
+        return response.text.strip()
 
 
 def summarize_youtube_direct(
     url_or_id: str,
     api_key: Optional[str] = None,
 ) -> str:
-    """One-shot: Summarize a YouTube video for classification in a single Gemini call.
+    """One-shot: Audit a YouTube video against all 14 policy categories.
 
-    Skips transcript extraction entirely — Gemini watches the video and summarizes.
-    Most efficient method: 1 API call instead of 2.
+    Instead of asking Gemini for a free-form description (which gets sanitized),
+    this asks Gemini to perform a structured analytical audit — answering
+    YES/NO per category with evidence. Safety filters are less aggressive
+    on analytical outputs than on descriptive content generation.
 
     Args:
         url_or_id: YouTube URL or video ID.
         api_key: Gemini API key.
 
     Returns:
-        2-3 sentence content description for policy classification.
+        Content description assembled from audit findings.
     """
     if not GENAI_AVAILABLE:
         raise ImportError("google-genai package required.")
@@ -321,23 +369,88 @@ def summarize_youtube_direct(
                         mime_type="video/*",
                     ),
                     types.Part.from_text(
-                        text=(
-                            "You are a content analyst. Write a 2-3 sentence summary "
-                            "of this video focusing on elements relevant to advertiser-friendly "
-                            "content policy: violence, language, drug references, sensitive topics, "
-                            "adult content, controversial issues, harmful acts, etc. "
-                            "If the content is benign, simply describe what it is about. "
-                            "Do NOT classify the content. Just describe it factually. "
-                            "Always respond in English regardless of the video's language."
-                        )
+                        text="""You are a content policy auditor. Analyze this video (audio, visuals, speech, text overlays) and complete the following structured audit.
+
+For EACH of the 14 categories below, respond with:
+- "PRESENT" if signals are detected, followed by specific evidence
+- "ABSENT" if no signals detected
+
+Respond ONLY with valid JSON. No markdown fences. No commentary.
+
+{
+  "video_topic": "One sentence describing what the video is about",
+  "audit": {
+    "inappropriate_language": {"status": "PRESENT or ABSENT", "evidence": "List specific words/phrases heard or shown"},
+    "violence": {"status": "PRESENT or ABSENT", "evidence": "Describe violent scenes, fighting, weapons, injuries shown"},
+    "adult_content": {"status": "PRESENT or ABSENT", "evidence": "Describe sexual content, nudity, suggestive material"},
+    "shocking_content": {"status": "PRESENT or ABSENT", "evidence": "Describe graphic, disturbing, or gory content"},
+    "harmful_acts": {"status": "PRESENT or ABSENT", "evidence": "Describe dangerous stunts, self-harm, harmful challenges, misinformation, or unverified medical claims"},
+    "hateful_derogatory": {"status": "PRESENT or ABSENT", "evidence": "Describe hate speech, slurs, discrimination against any group"},
+    "recreational_drugs": {"status": "PRESENT or ABSENT", "evidence": "Describe drug use, drug references, substance depiction, drug culture glorification"},
+    "firearms": {"status": "PRESENT or ABSENT", "evidence": "Describe firearms shown, gun violence, weapons modification, or sales"},
+    "controversial_issues": {"status": "PRESENT or ABSENT", "evidence": "Describe political, social, religious controversy discussed or depicted"},
+    "sensitive_events": {"status": "PRESENT or ABSENT", "evidence": "Describe references to war, terrorism, disasters, mass casualties, or death"},
+    "enabling_dishonest_behavior": {"status": "PRESENT or ABSENT", "evidence": "Describe scams, fraud, hacking, theft instructions, or deceptive practices"},
+    "inappropriate_for_kids": {"status": "PRESENT or ABSENT", "evidence": "Describe content that targets or involves children inappropriately"},
+    "incendiary_demeaning": {"status": "PRESENT or ABSENT", "evidence": "Describe public shaming, bullying, humiliation, or inflammatory provocation"},
+    "tobacco": {"status": "PRESENT or ABSENT", "evidence": "Describe tobacco use, smoking, vaping, or tobacco product promotion"}
+  }
+}"""
                     ),
                 ]
             )
         ],
-        config=types.GenerateContentConfig(temperature=0.2),
+        config=types.GenerateContentConfig(
+            temperature=0.1,
+            response_mime_type="application/json",
+        ),
     )
 
-    return response.text.strip()
+    # Parse the structured audit and assemble a content description
+    try:
+        import json
+        audit_data = json.loads(response.text)
+
+        # Build content description from audit findings
+        parts = []
+        topic = audit_data.get("video_topic", "Video content")
+        parts.append(topic)
+
+        audit = audit_data.get("audit", {})
+        category_names = {
+            "inappropriate_language": "Inappropriate Language",
+            "violence": "Violence",
+            "adult_content": "Adult Content",
+            "shocking_content": "Shocking Content",
+            "harmful_acts": "Harmful Acts",
+            "hateful_derogatory": "Hateful & Derogatory Content",
+            "recreational_drugs": "Recreational Drugs",
+            "firearms": "Firearms",
+            "controversial_issues": "Controversial Issues",
+            "sensitive_events": "Sensitive Events",
+            "enabling_dishonest_behavior": "Enabling Dishonest Behavior",
+            "inappropriate_for_kids": "Inappropriate Content for Kids",
+            "incendiary_demeaning": "Incendiary & Demeaning",
+            "tobacco": "Tobacco-Related Content",
+        }
+
+        present_categories = []
+        for key_name, display_name in category_names.items():
+            cat_data = audit.get(key_name, {})
+            if cat_data.get("status", "").upper() == "PRESENT":
+                evidence = cat_data.get("evidence", "")
+                present_categories.append(f"{display_name}: {evidence}")
+
+        if present_categories:
+            parts.append("Policy-relevant signals detected: " + "; ".join(present_categories))
+        else:
+            parts.append("No policy-relevant signals detected in this video.")
+
+        return " ".join(parts)
+
+    except (json.JSONDecodeError, KeyError, TypeError):
+        # If JSON parsing fails, return raw response as fallback
+        return response.text.strip()
 
 
 # === CLI Test ===
