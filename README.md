@@ -399,7 +399,7 @@ PRODUCTION (any platform):
 
 **Bhuvan Dontha**
 Trust & Safety Analytics | YouTube Monetization
-[LinkedIn](https://www.linkedin.com/in/bhuvandontha-838590218) · [GitHub](https://github.com/BhuvanDontha)
+[LinkedIn](https://www.linkedin.com/in/bhuvan-dontha-838590218/) · [GitHub](https://github.com/BhuvanDontha)
 
 ---
 
