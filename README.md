@@ -380,21 +380,6 @@ PRODUCTION (any platform):
 
 ---
 
-## Skills Demonstrated
-
-| Skill | How This Project Demonstrates It |
-|---|---|
-| LLM-based classification | Structured prompting with Gemini 2.5 Flash, JSON output parsing, multi-label classification |
-| Classification system design | 14-category taxonomy with severity tiers, dual-classifier architecture |
-| Evaluation methodology | Precision/recall/F1 per category, confusion matrices, cross-classifier divergence analysis |
-| Consistency analysis | Reproducibility testing across semantically similar inputs, per-category consistency scoring |
-| Video content analysis | Gemini native video understanding, structured 14-category audit, multi-language support |
-| Systems thinking | Modular pipeline design, graceful fallbacks, evaluation infrastructure that is classifier-agnostic |
-| T&S domain knowledge | Built on YouTube's real policy taxonomy (public source), understands severity hierarchies |
-| Full-stack delivery | Python backend, Streamlit frontend, pipeline orchestration, cloud deployment |
-
----
-
 ## Author
 
 **Bhuvan Dontha**
