@@ -28,10 +28,10 @@ try:
 except Exception:
     pass
 
-# Try to import YouTube transcript fetcher
+# Try to import YouTube video processor
 YT_AVAILABLE = False
 try:
-    from data.youtube_transcript import get_transcript, summarize_for_classification
+    from data.youtube_transcript import get_transcript, summarize_for_classification, summarize_youtube_direct
     YT_AVAILABLE = True
 except Exception:
     pass
@@ -92,38 +92,48 @@ if view == "\U0001F50D Live Classifier":
 
     if input_mode == "YouTube URL":
         if not YT_AVAILABLE:
-            st.warning("youtube-transcript-api not installed. Run: `pip install youtube-transcript-api`")
+            st.warning("YouTube module not available. Check data/youtube_transcript.py")
         else:
             yt_url = st.text_input(
                 "YouTube Video URL",
                 placeholder="https://www.youtube.com/watch?v=...",
             )
             if yt_url:
-                with st.spinner("Fetching transcript from YouTube..."):
-                    result = get_transcript(yt_url, max_chars=100000)
-                if "error" in result:
-                    st.error(f"Could not fetch transcript: {result['error']}")
+                # Primary: One-shot Gemini (processes video directly, no scraping)
+                if LLM_AVAILABLE:
+                    with st.spinner("Analyzing video with Gemini (native video understanding)..."):
+                        try:
+                            user_input = summarize_youtube_direct(yt_url)
+                            st.success("Video analyzed via Gemini native video processing")
+                            st.info(f"**Content summary:** {user_input}")
+                        except Exception as e:
+                            st.warning(f"Gemini direct analysis failed ({e}). Trying transcript extraction...")
+                            # Fallback: transcript extraction + summarization
+                            result = get_transcript(yt_url, max_chars=100000)
+                            if "error" in result:
+                                st.error(f"Could not fetch transcript: {result['error']}")
+                            else:
+                                st.success(
+                                    f"Transcript fetched via {result['source']} — "
+                                    f"{result['char_count']} chars"
+                                    f"{' (truncated)' if result['truncated'] else ''}"
+                                )
+                                with st.expander("View raw transcript"):
+                                    st.text(result["full_text"][:2000])
+                                try:
+                                    user_input = summarize_for_classification(result["full_text"])
+                                    st.info(f"**Content summary:** {user_input}")
+                                except Exception as e2:
+                                    user_input = result["full_text"][:1000]
                 else:
-                    st.success(
-                        f"Transcript fetched — "
-                        f"{result['char_count']} chars, "
-                        f"{result['duration_minutes']} min"
-                        f"{' (truncated)' if result['truncated'] else ''}"
-                    )
-                    with st.expander("View raw transcript"):
-                        st.text(result["full_text"][:2000])
-
-                    # Summarize with Gemini before classifying
-                    if LLM_AVAILABLE:
-                        with st.spinner("Summarizing transcript with Gemini for classification..."):
-                            try:
-                                user_input = summarize_for_classification(result["full_text"])
-                                st.info(f"**Content summary:** {user_input}")
-                            except Exception as e:
-                                st.warning(f"Summarization failed ({e}). Using raw transcript.")
-                                user_input = result["full_text"][:2000]
+                    # No Gemini key — try transcript API only
+                    with st.spinner("Fetching transcript..."):
+                        result = get_transcript(yt_url, max_chars=100000)
+                    if "error" in result:
+                        st.error(f"Could not fetch transcript: {result['error']}")
                     else:
-                        user_input = result["full_text"][:2000]
+                        user_input = result["full_text"][:1000]
+                        st.success(f"Transcript fetched — {result['char_count']} chars")
     else:
         user_input = st.text_area(
             "Content Description",
