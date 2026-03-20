@@ -10,6 +10,7 @@ Author: Bhuvan Dontha
 import os
 import sys
 import json
+import requests
 import streamlit as st
 import pandas as pd
 
@@ -38,6 +39,29 @@ except Exception:
 
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+
+
+def fetch_video_metadata(url: str) -> dict:
+    """Fetch YouTube video title and thumbnail via oEmbed API. Free, no key needed."""
+    try:
+        resp = requests.get(
+            "https://www.youtube.com/oembed",
+            params={"url": url, "format": "json"},
+            timeout=5,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            video_id = None
+            from data.youtube_transcript import extract_video_id
+            video_id = extract_video_id(url)
+            return {
+                "title": data.get("title", "Unknown"),
+                "author": data.get("author_name", "Unknown"),
+                "thumbnail": f"https://img.youtube.com/vi/{video_id}/hqdefault.jpg" if video_id else data.get("thumbnail_url", ""),
+            }
+    except Exception:
+        pass
+    return {}
 
 # ==================== PAGE CONFIG ====================
 st.set_page_config(
@@ -99,6 +123,18 @@ if view == "\U0001F50D Live Classifier":
                 placeholder="https://www.youtube.com/watch?v=...",
             )
             if yt_url:
+                # Show video preview (title + thumbnail)
+                meta = fetch_video_metadata(yt_url)
+                if meta:
+                    preview_col1, preview_col2 = st.columns([1, 2])
+                    with preview_col1:
+                        if meta.get("thumbnail"):
+                            st.image(meta["thumbnail"], use_container_width=True)
+                    with preview_col2:
+                        st.markdown(f"### {meta.get('title', 'Unknown')}")
+                        st.caption(f"Channel: {meta.get('author', 'Unknown')}")
+                    st.markdown("---")
+
                 # Primary: One-shot Gemini (processes video directly, no scraping)
                 if LLM_AVAILABLE:
                     with st.spinner("Analyzing video with Gemini (native video understanding)..."):
