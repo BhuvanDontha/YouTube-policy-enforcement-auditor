@@ -354,7 +354,7 @@ All synthetic data is generated from YouTube's publicly documented **Advertiser-
 - **Source:** [support.google.com/youtube/answer/6162278](https://support.google.com/youtube/answer/6162278)
 - **14 policy categories** × 3 severity tiers (GREEN / YELLOW / RED)
 - **500 content descriptions**, each traceable to a specific guideline example
-- **Zero proprietary data. Zero internal information.**
+- **Zero proprietary data.**
 
 The YouTube video analysis feature uses Gemini's native video understanding to analyze real public videos in real-time.
 
